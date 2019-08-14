@@ -1,3 +1,4 @@
+import com.jfrog.bintray.gradle.tasks.BintrayUploadTask
 import net.serverpeon.buildenv.JSoupTask
 import net.serverpeon.buildenv.ManifestTask
 import net.serverpeon.buildenv.subjects.JetpackVersions
@@ -13,6 +14,7 @@ plugins {
     `java-platform`
     `maven-publish`
     id("io.spring.dependency-management") version "1.0.6.RELEASE"
+    id("com.jfrog.bintray") version "1.8.4"
 }
 
 val versionManifest = layout.projectDirectory.file("latest.json")
@@ -26,6 +28,8 @@ val groupMapping = mapOf(
         "jetifier" to "com.android.tools.build.jetifier",
         "legacy-google-material" to "com.google.android.material"
 )
+
+val VERSION_FORMAT = DateTimeFormatter.ofPattern("uuuu.MM.dd")
 
 tasks {
     val parseJetpackVersions by registering(JSoupTask::class) {
@@ -114,9 +118,7 @@ tasks {
                 }
 
 
-                version = manifest.lastUpdate.format(DateTimeFormatter.ofPattern(
-                        "uuuu.MM.dd"
-                ))
+                version = manifest.lastUpdate.format(VERSION_FORMAT)
             }
 
             dependencyManagement {
@@ -131,10 +133,25 @@ tasks {
         }
     }
 
-    withType<GenerateMavenPom>().matching {
-        it.name.endsWith("AndroidxPlatformPublication")
-    }.configureEach {
+    val guardAgainstWrongVersion by registering {
+        dependsOn(updateManifest)
+
+        doLast("Guard against version mismatches") {
+            if (!updateManifest.get().state.upToDate) {
+                // Since bintray does not allow deferred configuration we must specify the version beforehand.
+                //   This task will fail if this session happened to change the manifest which would mean the
+                //       version is out of sync.
+                throw GradleException("Please run bintrayUpload again, it was using the wrong version id.")
+            }
+        }
+    }
+
+    withType<GenerateMavenPom>().configureEach {
         dependsOn(injectDependenciesFromManifest)
+    }
+
+    withType<BintrayUploadTask>().configureEach {
+        dependsOn(guardAgainstWrongVersion)
     }
 }
 
@@ -149,7 +166,8 @@ publishing {
             licenses {
                 license {
                     name.set("The Apache License, Version 2.0")
-                    url.set("https://github.com/Kiskae/androidx-bom/blob/master/LICENSE")
+                    url.set("http://www.apache.org/licenses/LICENSE-2.0.txt")
+                    distribution.set("repo")
                 }
 
                 license {
@@ -166,5 +184,27 @@ publishing {
         }
 
         from(components["javaPlatform"])
+    }
+}
+
+bintray {
+    user = (project.findProperty("bintrayUser")
+            ?: System.getenv("BINTRAY_USER"))?.toString()
+    key = (project.findProperty("bintrayApiKey")
+            ?: System.getenv("BINTRAY_API_KEY"))?.toString()
+
+    setPublications("androidxPlatform")
+
+    pkg.apply {
+        repo = "maven"
+        name = "androidx-bom"
+
+        version.apply {
+            name = runCatching {
+                tasks.getByName<ManifestTask>("updateManifest").loadDefinedManifest().lastUpdate.format(
+                        VERSION_FORMAT
+                )
+            }.getOrNull()
+        }
     }
 }

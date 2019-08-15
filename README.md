@@ -16,7 +16,7 @@ repositories {
 }
 
 dependencies {
-    <configuration>(platform("net.serverpeon.androidx:androidx-bom:2019.08.07"))
+    <configuration>(platform("net.serverpeon.androidx:androidx-bom:xxxx.xx.xx"))
 }
 ```
 
@@ -33,7 +33,7 @@ repositories {
 
 dependencyManagement {
     imports {
-        mavenBom("net.serverpeon.androidx:androidx-bom:2019.08.07")
+        mavenBom("net.serverpeon.androidx:androidx-bom:xxxx.xx.xx")
     }
 } 
 ```

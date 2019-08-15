@@ -7,7 +7,9 @@ import net.serverpeon.buildenv.subjects.fromJson
 import net.serverpeon.buildenv.subjects.moshi
 import java.net.URL
 import java.nio.file.Files
+import java.time.LocalDateTime
 import java.time.format.DateTimeFormatter
+import java.time.temporal.ChronoUnit
 import java.util.*
 
 plugins {
@@ -37,7 +39,7 @@ tasks {
 
         parser = JetpackVersions.Spec::class.java
 
-        outputs.upToDateWhen { false }
+        inputs.property("currentDate", LocalDateTime.now().truncatedTo(ChronoUnit.HOURS))
     }
 
     val checkLastUpdated by registering {

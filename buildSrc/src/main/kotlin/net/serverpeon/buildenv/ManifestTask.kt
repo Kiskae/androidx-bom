@@ -14,6 +14,7 @@ import org.gradle.api.tasks.Input
 import org.gradle.api.tasks.InputFile
 import org.gradle.api.tasks.OutputFile
 import org.gradle.api.tasks.TaskAction
+import org.slf4j.LoggerFactory
 import java.io.File
 import java.net.URL
 import java.time.LocalDate
@@ -86,46 +87,40 @@ abstract class ManifestTask : DefaultTask() {
                 val preferred: Semver?,
                 val jetpackVersions: JetpackVersions.Artifact
         ) {
-            fun toMavenCoordinates(mavenProperty: String): Map<String, String> {
-                return artifacts.mapValues { (artifact, versions) ->
-                    val version = resolveVersion(
+            fun toMavenCoordinates(mavenProperty: String?): Map<String, String> {
+                return artifacts.entries.mapNotNull { (artifact, versions) ->
+                    resolveVersion(
                             "$groupId:$artifact",
                             mavenProperty,
                             versions
-                    )
-                    "$groupId:$artifact:$version"
-                }
+                    )?.let { version ->
+                        artifact to "$groupId:$artifact:$version"
+                    }
+                }.toMap()
             }
 
             private fun resolveVersion(artifactName: String,
-                                       mavenProperty: String,
+                                       mavenProperty: String?,
                                        versions: List<Semver>
-            ): String {
-                val sortedVersion = versions.sortedDescending()
+            ): String? {
                 return when (preferred) {
-                    null -> sortedVersion.firstOrNull { it.isStable } ?: sortedVersion.first()
-                    in versions -> preferred
-                    else -> when {
-                        // Artifact might belong to the current non-stable version, check for presence.
-                        jetpackVersions.stable in versions -> jetpackVersions.stable
-                        jetpackVersions.rc in versions -> jetpackVersions.rc
-                        jetpackVersions.beta in versions -> jetpackVersions.beta
-                        jetpackVersions.alpha in versions -> jetpackVersions.alpha
-                        else -> {
-                            sortedVersion.firstOrNull {
-                                // Find the last published version before the current preferred, no surprises.
-                                it.isLowerThanOrEqualTo(preferred)
-                            } ?: sortedVersion.firstOrNull()
-                            ?: error("Unable to find preferred version for: $artifactName. " +
-                                    "[preferred: $preferred, available: $sortedVersion]")
-                        }
+                    null -> versions.sortedDescending().let { sortedVersions ->
+                        sortedVersions.firstOrNull { it.isStable } ?: sortedVersions.first()
+                    }.originalValue
+                    in versions -> mavenProperty ?: preferred.originalValue
+                    else -> {
+                        logger.info("Unable to find preferred version for: $artifactName. " +
+                                "[preferred: $preferred, available: $versions]")
+                        null
                     }
-                }.let { if (it == preferred) mavenProperty else it!!.originalValue }
+                }
             }
         }
     }
 
     companion object {
+        private val logger = LoggerFactory.getLogger(ManifestTask::class.java)
+
         fun loadManifest(file: File): VersionManifest = moshi.adapter(VersionManifest::class.java).fromJson(file)!!
     }
 }

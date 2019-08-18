@@ -1,4 +1,5 @@
 import com.jfrog.bintray.gradle.tasks.BintrayUploadTask
+import io.spring.gradle.dependencymanagement.dsl.DependencyManagementExtension
 import net.serverpeon.buildenv.JSoupTask
 import net.serverpeon.buildenv.ManifestTask
 import net.serverpeon.buildenv.subjects.JetpackVersions
@@ -10,7 +11,6 @@ import java.nio.file.Files
 import java.time.LocalDateTime
 import java.time.format.DateTimeFormatter
 import java.time.temporal.ChronoUnit
-import java.util.*
 
 plugins {
     `java-platform`
@@ -97,6 +97,12 @@ tasks {
         manifestOutput.set(versionManifest)
     }
 
+    fun DependencyManagementExtension.injectDependencies(coordinates: Sequence<String>) {
+        dependencies {
+            coordinates.forEach(this::dependency)
+        }
+    }
+
     val injectDependenciesFromManifest by registering {
         dependsOn(updateManifest)
 
@@ -105,11 +111,11 @@ tasks {
 
             publishing.publications.named<MavenPublication>("androidxPlatform") {
                 pom {
-                    properties.putAll(manifest.groups.entries.filter {
-                        it.value.preferred != null
-                    }.associate {
-                        "androidx.${it.key}.version" to it.value.preferred!!.originalValue
-                    })
+                    properties.putAll(manifest.groups.entries.mapNotNull { (group, artifacts) ->
+                        artifacts.preferred?.let {
+                            "androidx.$group.version" to it.originalValue
+                        }
+                    }.toMap())
                 }
 
 
@@ -117,13 +123,11 @@ tasks {
             }
 
             dependencyManagement {
-                dependencies {
-                    manifest.groups.entries.flatMap {
-                        it.value.toMavenCoordinates("\${androidx.${it.key}.version}").values
-                    }.forEach { coordinate ->
-                        dependency(coordinate)
-                    }
-                }
+                injectDependencies(manifest.groups.entries.asSequence().flatMap { (group, artifacts) ->
+                    artifacts.toMavenCoordinates(
+                            "\${androidx.$group.version}"
+                    ).values.asSequence()
+                })
             }
         }
     }
@@ -147,6 +151,20 @@ tasks {
 
     withType<BintrayUploadTask>().configureEach {
         dependsOn(guardAgainstWrongVersion)
+    }
+
+    named("dependencyManagement") {
+        dependsOn(updateManifest)
+
+        doFirst {
+            val manifest = updateManifest.get().loadDefinedManifest()
+
+            dependencyManagement {
+                injectDependencies(manifest.groups.entries.asSequence().flatMap { (_, artifacts) ->
+                    artifacts.toMavenCoordinates(null).values.asSequence()
+                })
+            }
+        }
     }
 }
 

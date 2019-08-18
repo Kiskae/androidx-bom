@@ -110,13 +110,6 @@ tasks {
                     }.associate {
                         "androidx.${it.key}.version" to it.value.preferred!!.originalValue
                     })
-
-                    // https://developer.android.com/jetpack/androidx/releases#august_7_2019
-                    val anchor = manifest.lastUpdate.format(DateTimeFormatter.ofPattern(
-                            "LLLL'_'d'_'uuuu",
-                            Locale.US
-                    )).toLowerCase()
-                    url.set("https://developer.android.com/jetpack/androidx/releases#$anchor")
                 }
 
 
@@ -164,6 +157,7 @@ publishing {
 
         pom {
             description.set("Generated Bill-of-Materials for the AndroidX Jetpack project")
+            url.set("https://developer.android.com/jetpack/androidx/versions/all-channel")
 
             licenses {
                 license {

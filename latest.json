@@ -228,15 +228,16 @@
           "1.0.0-alpha01",
           "1.0.0-alpha02",
           "1.0.0-alpha03",
-          "1.0.0-alpha04"
+          "1.0.0-alpha04",
+          "1.0.0-beta01"
         ]
       },
       "groupId": "androidx.biometric",
       "jetpackVersions": {
-        "alpha": "1.0.0-alpha04",
-        "latestUpdate": "2019-04-03"
+        "beta": "1.0.0-beta01",
+        "latestUpdate": "2019-08-29"
       },
-      "preferred": "1.0.0-alpha04"
+      "preferred": "1.0.0-beta01"
     },
     "browser": {
       "artifacts": {
@@ -666,7 +667,10 @@
           "3.6.0-alpha03",
           "3.6.0-alpha04",
           "3.6.0-alpha05",
-          "3.6.0-alpha06"
+          "3.6.0-alpha06",
+          "3.6.0-alpha07",
+          "3.6.0-alpha08",
+          "3.6.0-alpha09"
         ],
         "databinding-adapters": [
           "3.2.0-alpha12",
@@ -757,7 +761,10 @@
           "3.6.0-alpha03",
           "3.6.0-alpha04",
           "3.6.0-alpha05",
-          "3.6.0-alpha06"
+          "3.6.0-alpha06",
+          "3.6.0-alpha07",
+          "3.6.0-alpha08",
+          "3.6.0-alpha09"
         ],
         "databinding-compiler-common": [
           "3.2.0-alpha12",
@@ -848,7 +855,10 @@
           "3.6.0-alpha03",
           "3.6.0-alpha04",
           "3.6.0-alpha05",
-          "3.6.0-alpha06"
+          "3.6.0-alpha06",
+          "3.6.0-alpha07",
+          "3.6.0-alpha08",
+          "3.6.0-alpha09"
         ],
         "databinding-compiler": [
           "3.2.0-alpha12",
@@ -939,7 +949,10 @@
           "3.6.0-alpha03",
           "3.6.0-alpha04",
           "3.6.0-alpha05",
-          "3.6.0-alpha06"
+          "3.6.0-alpha06",
+          "3.6.0-alpha07",
+          "3.6.0-alpha08",
+          "3.6.0-alpha09"
         ],
         "databinding-common": [
           "3.2.0-alpha12",
@@ -1030,7 +1043,10 @@
           "3.6.0-alpha03",
           "3.6.0-alpha04",
           "3.6.0-alpha05",
-          "3.6.0-alpha06"
+          "3.6.0-alpha06",
+          "3.6.0-alpha07",
+          "3.6.0-alpha08",
+          "3.6.0-alpha09"
         ],
         "viewbinding": [
           "3.6.0-alpha01",
@@ -1038,7 +1054,10 @@
           "3.6.0-alpha03",
           "3.6.0-alpha04",
           "3.6.0-alpha05",
-          "3.6.0-alpha06"
+          "3.6.0-alpha06",
+          "3.6.0-alpha07",
+          "3.6.0-alpha08",
+          "3.6.0-alpha09"
         ]
       },
       "groupId": "androidx.databinding",
@@ -2391,7 +2410,7 @@
       },
       "groupId": "androidx.room",
       "jetpackVersions": {
-        "alpha": "2.2.0-alpha03",
+        "beta": "2.2.0-beta01",
         "latestUpdate": "2019-08-22",
         "stable": "2.1.0"
       },
@@ -3003,5 +3022,5 @@
       "jetpackVersions": {}
     }
   },
-  "lastUpdate": "2019-08-22"
+  "lastUpdate": "2019-08-29"
 }

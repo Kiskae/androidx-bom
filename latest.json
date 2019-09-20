@@ -82,7 +82,7 @@
       },
       "groupId": "androidx.annotation",
       "jetpackVersions": {
-        "latestUpdate": "2019-06-05",
+        "latestUpdate": "2019-09-18",
         "stable": "1.1.0"
       },
       "preferred": "1.1.0"
@@ -197,10 +197,10 @@
       },
       "groupId": "androidx.autofill",
       "jetpackVersions": {
-        "alpha": "1.0.0-alpha02",
-        "latestUpdate": "2019-08-07"
+        "beta": "1.0.0-beta01",
+        "latestUpdate": "2019-09-18"
       },
-      "preferred": "1.0.0-alpha02"
+      "preferred": "1.0.0-beta01"
     },
     "benchmark": {
       "artifacts": {
@@ -227,10 +227,10 @@
       },
       "groupId": "androidx.benchmark",
       "jetpackVersions": {
-        "alpha": "1.0.0-alpha05",
-        "latestUpdate": "2019-09-05"
+        "alpha": "1.0.0-alpha06",
+        "latestUpdate": "2019-09-18"
       },
-      "preferred": "1.0.0-alpha05"
+      "preferred": "1.0.0-alpha06"
     },
     "biometric": {
       "artifacts": {
@@ -244,10 +244,10 @@
       },
       "groupId": "androidx.biometric",
       "jetpackVersions": {
-        "beta": "1.0.0-beta01",
-        "latestUpdate": "2019-08-29"
+        "beta": "1.0.0-beta02",
+        "latestUpdate": "2019-09-18"
       },
-      "preferred": "1.0.0-beta01"
+      "preferred": "1.0.0-beta02"
     },
     "browser": {
       "artifacts": {
@@ -263,8 +263,8 @@
       },
       "groupId": "androidx.browser",
       "jetpackVersions": {
-        "alpha": "1.2.0-alpha07",
-        "latestUpdate": "2019-08-07",
+        "alpha": "1.2.0-alpha08",
+        "latestUpdate": "2019-09-18",
         "stable": "1.0.0"
       },
       "preferred": "1.0.0"
@@ -433,8 +433,8 @@
       },
       "groupId": "androidx.constraintlayout",
       "jetpackVersions": {
-        "beta": "2.0.0-beta1",
-        "latestUpdate": "2019-05-09",
+        "beta": "2.0.0-beta2",
+        "latestUpdate": "2019-06-17",
         "stable": "1.1.3"
       },
       "preferred": "1.1.3"
@@ -1085,12 +1085,11 @@
       },
       "groupId": "androidx.databinding",
       "jetpackVersions": {
-        "alpha": "3.6.0-alpha03",
-        "beta": "3.5.0-beta04",
-        "latestUpdate": "2019-05-15",
-        "stable": "3.4.1"
+        "alpha": "3.6.0-alpha10",
+        "latestUpdate": "2019-09-05",
+        "stable": "3.5.0"
       },
-      "preferred": "3.4.1"
+      "preferred": "3.5.0"
     },
     "documentfile": {
       "artifacts": {
@@ -1206,10 +1205,10 @@
       },
       "groupId": "androidx.enterprise",
       "jetpackVersions": {
-        "alpha": "1.0.0-alpha03",
-        "latestUpdate": "2019-08-07"
+        "beta": "1.0.0-beta01",
+        "latestUpdate": "2019-09-18"
       },
-      "preferred": "1.0.0-alpha03"
+      "preferred": "1.0.0-beta01"
     },
     "exifinterface": {
       "artifacts": {
@@ -1309,8 +1308,8 @@
       },
       "groupId": "androidx.fragment",
       "jetpackVersions": {
-        "alpha": "1.2.0-alpha03",
-        "latestUpdate": "2019-09-05",
+        "alpha": "1.2.0-alpha04",
+        "latestUpdate": "2019-09-18",
         "rc": "1.1.0",
         "stable": "1.1.0"
       },
@@ -1411,10 +1410,10 @@
       },
       "groupId": "com.android.tools.build.jetifier",
       "jetpackVersions": {
-        "beta": "1.0.0-beta06",
-        "latestUpdate": "2019-08-15"
+        "beta": "1.0.0-beta07",
+        "latestUpdate": "2019-09-18"
       },
-      "preferred": "1.0.0-beta06"
+      "preferred": "1.0.0-beta07"
     },
     "leanback": {
       "artifacts": {
@@ -1761,8 +1760,8 @@
       },
       "groupId": "androidx.lifecycle",
       "jetpackVersions": {
-        "alpha": "2.2.0-alpha04",
-        "latestUpdate": "2019-09-05",
+        "alpha": "2.2.0-alpha05",
+        "latestUpdate": "2019-09-18",
         "stable": "2.1.0"
       },
       "preferred": "2.1.0"
@@ -2100,8 +2099,8 @@
       },
       "groupId": "androidx.navigation",
       "jetpackVersions": {
-        "alpha": "2.2.0-alpha02",
-        "latestUpdate": "2019-09-05",
+        "alpha": "2.2.0-alpha03",
+        "latestUpdate": "2019-09-18",
         "stable": "2.1.0"
       },
       "preferred": "2.1.0"
@@ -3123,5 +3122,5 @@
       "jetpackVersions": {}
     }
   },
-  "lastUpdate": "2019-09-05"
+  "lastUpdate": "2019-09-18"
 }

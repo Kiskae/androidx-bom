@@ -1,0 +1,23 @@
+name: Create Pull Request on Jetpack Update
+
+on: 
+  schedule:
+    - cron: '0 2 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v1
+    - name: Update repository manifest
+      uses: MrRamych/gradle-actions/openjdk-13@3.1
+      with:
+        args: updateManifest
+    - name: Create Pull Request
+      uses: peter-evans/create-pull-request@v1
+      with:
+        token: ${{ secrets.GITHUB_TOKEN }}
+        title: Update Manifest with Official Jetpack Versions
+        branch: automated-update
+        branch-suffix: none

@@ -53,11 +53,13 @@
       "artifacts": {
         "ads-identifier": [
           "1.0.0-alpha01",
-          "1.0.0-alpha02"
+          "1.0.0-alpha02",
+          "1.0.0-alpha03"
         ],
         "ads-identifier-common": [
           "1.0.0-alpha01",
-          "1.0.0-alpha02"
+          "1.0.0-alpha02",
+          "1.0.0-alpha03"
         ],
         "ads-identifier-provider": [
           "1.0.0-alpha01",
@@ -66,10 +68,10 @@
       },
       "groupId": "androidx.ads",
       "jetpackVersions": {
-        "alpha": "1.0.0-alpha01",
-        "latestUpdate": "2019-08-07"
+        "alpha": "1.0.0-alpha03",
+        "latestUpdate": "2019-11-20"
       },
-      "preferred": "1.0.0-alpha01"
+      "preferred": "1.0.0-alpha03"
     },
     "annotation": {
       "artifacts": {
@@ -235,7 +237,8 @@
           "1.0.0-alpha05",
           "1.0.0-alpha06",
           "1.0.0-beta01",
-          "1.0.0-rc01"
+          "1.0.0-rc01",
+          "1.0.0"
         ],
         "benchmark": [
           "1.0.0-alpha01",
@@ -247,22 +250,24 @@
           "1.0.0-alpha05",
           "1.0.0-alpha06",
           "1.0.0-beta01",
-          "1.0.0-rc01"
+          "1.0.0-rc01",
+          "1.0.0"
         ],
         "benchmark-junit4": [
           "1.0.0-alpha04",
           "1.0.0-alpha05",
           "1.0.0-alpha06",
           "1.0.0-beta01",
-          "1.0.0-rc01"
+          "1.0.0-rc01",
+          "1.0.0"
         ]
       },
       "groupId": "androidx.benchmark",
       "jetpackVersions": {
-        "latestUpdate": "2019-10-23",
-        "rc": "1.0.0-rc01"
+        "latestUpdate": "2019-11-20",
+        "stable": "1.0.0"
       },
-      "preferred": "1.0.0-rc01"
+      "preferred": "1.0.0"
     },
     "biometric": {
       "artifacts": {
@@ -296,13 +301,14 @@
           "1.0.0",
           "1.2.0-alpha07",
           "1.2.0-alpha08",
-          "1.2.0-alpha09"
+          "1.2.0-alpha09",
+          "1.2.0-beta01"
         ]
       },
       "groupId": "androidx.browser",
       "jetpackVersions": {
-        "alpha": "1.2.0-alpha09",
-        "latestUpdate": "2019-10-23",
+        "beta": "1.2.0-beta01",
+        "latestUpdate": "2019-11-20",
         "stable": "1.0.0"
       },
       "preferred": "1.0.0"
@@ -549,7 +555,8 @@
           "1.2.0-alpha03",
           "1.2.0-alpha04",
           "1.2.0-beta01",
-          "1.2.0-beta02"
+          "1.2.0-beta02",
+          "1.2.0-rc01"
         ],
         "core": [
           "1.0.0-alpha1",
@@ -576,16 +583,18 @@
           "1.2.0-alpha03",
           "1.2.0-alpha04",
           "1.2.0-beta01",
-          "1.2.0-beta02"
+          "1.2.0-beta02",
+          "1.2.0-rc01"
         ],
         "core-role": [
-          "1.0.0-alpha01"
+          "1.0.0-alpha01",
+          "1.0.0-beta01"
         ]
       },
       "groupId": "androidx.core",
       "jetpackVersions": {
-        "beta": "1.2.0-beta02",
-        "latestUpdate": "2019-11-07",
+        "latestUpdate": "2019-11-20",
+        "rc": "1.2.0-rc01",
         "stable": "1.1.0"
       },
       "preferred": "1.1.0"
@@ -746,8 +755,11 @@
           "3.6.0-beta01",
           "3.6.0-beta02",
           "3.6.0-beta03",
+          "3.6.0-beta04",
           "4.0.0-alpha01",
-          "4.0.0-alpha02"
+          "4.0.0-alpha02",
+          "4.0.0-alpha03",
+          "4.0.0-alpha04"
         ],
         "databinding-adapters": [
           "3.2.0-alpha12",
@@ -850,8 +862,11 @@
           "3.6.0-beta01",
           "3.6.0-beta02",
           "3.6.0-beta03",
+          "3.6.0-beta04",
           "4.0.0-alpha01",
-          "4.0.0-alpha02"
+          "4.0.0-alpha02",
+          "4.0.0-alpha03",
+          "4.0.0-alpha04"
         ],
         "databinding-compiler-common": [
           "3.2.0-alpha12",
@@ -954,8 +969,11 @@
           "3.6.0-beta01",
           "3.6.0-beta02",
           "3.6.0-beta03",
+          "3.6.0-beta04",
           "4.0.0-alpha01",
-          "4.0.0-alpha02"
+          "4.0.0-alpha02",
+          "4.0.0-alpha03",
+          "4.0.0-alpha04"
         ],
         "databinding-compiler": [
           "3.2.0-alpha12",
@@ -1058,8 +1076,11 @@
           "3.6.0-beta01",
           "3.6.0-beta02",
           "3.6.0-beta03",
+          "3.6.0-beta04",
           "4.0.0-alpha01",
-          "4.0.0-alpha02"
+          "4.0.0-alpha02",
+          "4.0.0-alpha03",
+          "4.0.0-alpha04"
         ],
         "databinding-common": [
           "3.2.0-alpha12",
@@ -1162,8 +1183,11 @@
           "3.6.0-beta01",
           "3.6.0-beta02",
           "3.6.0-beta03",
+          "3.6.0-beta04",
           "4.0.0-alpha01",
-          "4.0.0-alpha02"
+          "4.0.0-alpha02",
+          "4.0.0-alpha03",
+          "4.0.0-alpha04"
         ],
         "viewbinding": [
           "3.6.0-alpha01",
@@ -1181,8 +1205,11 @@
           "3.6.0-beta01",
           "3.6.0-beta02",
           "3.6.0-beta03",
+          "3.6.0-beta04",
           "4.0.0-alpha01",
-          "4.0.0-alpha02"
+          "4.0.0-alpha02",
+          "4.0.0-alpha03",
+          "4.0.0-alpha04"
         ]
       },
       "groupId": "androidx.databinding",
@@ -1327,16 +1354,16 @@
           "1.0.0",
           "1.1.0-alpha01",
           "1.1.0-beta01",
-          "1.1.0-rc01"
+          "1.1.0-rc01",
+          "1.1.0"
         ]
       },
       "groupId": "androidx.exifinterface",
       "jetpackVersions": {
-        "latestUpdate": "2019-03-13",
-        "rc": "1.0.0-rc01",
-        "stable": "1.0.0"
+        "latestUpdate": "2019-11-20",
+        "stable": "1.1.0"
       },
-      "preferred": "1.0.0"
+      "preferred": "1.1.0"
     },
     "fragment": {
       "artifacts": {
@@ -1509,7 +1536,8 @@
           "1.0.0-beta04",
           "1.0.0-beta05",
           "1.0.0-beta06",
-          "1.0.0-beta07"
+          "1.0.0-beta07",
+          "1.0.0-beta08"
         ],
         "jetifier-core": [
           "0.0.1",
@@ -1528,15 +1556,16 @@
           "1.0.0-beta04",
           "1.0.0-beta05",
           "1.0.0-beta06",
-          "1.0.0-beta07"
+          "1.0.0-beta07",
+          "1.0.0-beta08"
         ]
       },
       "groupId": "com.android.tools.build.jetifier",
       "jetpackVersions": {
-        "beta": "1.0.0-beta07",
-        "latestUpdate": "2019-09-18"
+        "beta": "1.0.0-beta08",
+        "latestUpdate": "2019-11-20"
       },
-      "preferred": "1.0.0-beta07"
+      "preferred": "1.0.0-beta08"
     },
     "leanback": {
       "artifacts": {
@@ -2553,16 +2582,16 @@
           "1.1.0-beta03",
           "1.1.0-beta04",
           "1.1.0-beta05",
-          "1.1.0-rc01"
+          "1.1.0-rc01",
+          "1.1.0"
         ]
       },
       "groupId": "androidx.recyclerview",
       "jetpackVersions": {
-        "latestUpdate": "2019-10-23",
-        "rc": "1.1.0-rc01",
-        "stable": "1.0.0"
+        "latestUpdate": "2019-11-20",
+        "stable": "1.1.0"
       },
-      "preferred": "1.0.0"
+      "preferred": "1.1.0"
     },
     "remotecallback": {
       "artifacts": {
@@ -2604,7 +2633,8 @@
           "2.2.0-beta01",
           "2.2.0-rc01",
           "2.2.0",
-          "2.2.1"
+          "2.2.1",
+          "2.2.2"
         ],
         "room-common": [
           "2.0.0-alpha1",
@@ -2626,7 +2656,8 @@
           "2.2.0-beta01",
           "2.2.0-rc01",
           "2.2.0",
-          "2.2.1"
+          "2.2.1",
+          "2.2.2"
         ],
         "room-compiler": [
           "2.0.0-alpha1",
@@ -2648,7 +2679,8 @@
           "2.2.0-beta01",
           "2.2.0-rc01",
           "2.2.0",
-          "2.2.1"
+          "2.2.1",
+          "2.2.2"
         ],
         "room-guava": [
           "2.0.0-alpha1",
@@ -2670,7 +2702,8 @@
           "2.2.0-beta01",
           "2.2.0-rc01",
           "2.2.0",
-          "2.2.1"
+          "2.2.1",
+          "2.2.2"
         ],
         "room-migration": [
           "2.0.0-alpha1",
@@ -2692,7 +2725,8 @@
           "2.2.0-beta01",
           "2.2.0-rc01",
           "2.2.0",
-          "2.2.1"
+          "2.2.1",
+          "2.2.2"
         ],
         "room-testing": [
           "2.0.0-alpha1",
@@ -2714,7 +2748,8 @@
           "2.2.0-beta01",
           "2.2.0-rc01",
           "2.2.0",
-          "2.2.1"
+          "2.2.1",
+          "2.2.2"
         ],
         "room-runtime": [
           "2.0.0-alpha1",
@@ -2736,7 +2771,8 @@
           "2.2.0-beta01",
           "2.2.0-rc01",
           "2.2.0",
-          "2.2.1"
+          "2.2.1",
+          "2.2.2"
         ],
         "room-coroutines": [
           "2.1.0-alpha03",
@@ -2754,15 +2790,16 @@
           "2.2.0-beta01",
           "2.2.0-rc01",
           "2.2.0",
-          "2.2.1"
+          "2.2.1",
+          "2.2.2"
         ]
       },
       "groupId": "androidx.room",
       "jetpackVersions": {
-        "latestUpdate": "2019-10-23",
-        "stable": "2.2.1"
+        "latestUpdate": "2019-11-20",
+        "stable": "2.2.2"
       },
-      "preferred": "2.2.1"
+      "preferred": "2.2.2"
     },
     "savedstate": {
       "artifacts": {
@@ -3223,15 +3260,16 @@
           "1.0.0-beta03",
           "1.0.0-beta04",
           "1.0.0-beta05",
-          "1.0.0-rc01"
+          "1.0.0-rc01",
+          "1.0.0"
         ]
       },
       "groupId": "androidx.viewpager2",
       "jetpackVersions": {
-        "latestUpdate": "2019-10-23",
-        "rc": "1.0.0-rc01"
+        "latestUpdate": "2019-11-20",
+        "stable": "1.0.0"
       },
-      "preferred": "1.0.0-rc01"
+      "preferred": "1.0.0"
     },
     "wear": {
       "artifacts": {
@@ -3294,7 +3332,8 @@
           "2.2.0",
           "2.3.0-alpha01",
           "2.3.0-alpha02",
-          "2.3.0-alpha03"
+          "2.3.0-alpha03",
+          "2.3.0-beta01"
         ],
         "work-runtime": [
           "2.0.0-rc01",
@@ -3314,7 +3353,8 @@
           "2.2.0",
           "2.3.0-alpha01",
           "2.3.0-alpha02",
-          "2.3.0-alpha03"
+          "2.3.0-alpha03",
+          "2.3.0-beta01"
         ],
         "work-testing": [
           "2.0.0-rc01",
@@ -3334,7 +3374,8 @@
           "2.2.0",
           "2.3.0-alpha01",
           "2.3.0-alpha02",
-          "2.3.0-alpha03"
+          "2.3.0-alpha03",
+          "2.3.0-beta01"
         ],
         "work-runtime-ktx": [
           "2.0.0-rc01",
@@ -3354,7 +3395,8 @@
           "2.2.0",
           "2.3.0-alpha01",
           "2.3.0-alpha02",
-          "2.3.0-alpha03"
+          "2.3.0-alpha03",
+          "2.3.0-beta01"
         ],
         "work-gcm": [
           "2.2.0-beta01",
@@ -3363,13 +3405,14 @@
           "2.2.0",
           "2.3.0-alpha01",
           "2.3.0-alpha02",
-          "2.3.0-alpha03"
+          "2.3.0-alpha03",
+          "2.3.0-beta01"
         ]
       },
       "groupId": "androidx.work",
       "jetpackVersions": {
-        "alpha": "2.3.0-alpha03",
-        "latestUpdate": "2019-10-23",
+        "beta": "2.3.0-beta01",
+        "latestUpdate": "2019-11-20",
         "stable": "2.2.0"
       },
       "preferred": "2.2.0"
@@ -3395,7 +3438,8 @@
           "1.1.0-alpha10",
           "1.1.0-beta01",
           "1.1.0-beta02",
-          "1.2.0-alpha01"
+          "1.2.0-alpha01",
+          "1.2.0-alpha02"
         ]
       },
       "groupId": "com.google.android.material",
@@ -3460,5 +3504,5 @@
       "jetpackVersions": {}
     }
   },
-  "lastUpdate": "2019-11-07"
+  "lastUpdate": "2019-11-20"
 }

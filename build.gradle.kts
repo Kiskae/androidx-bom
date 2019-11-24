@@ -15,7 +15,7 @@ import java.time.temporal.ChronoUnit
 plugins {
     `java-platform`
     `maven-publish`
-    id("io.spring.dependency-management") version "1.0.6.RELEASE"
+    id("io.spring.dependency-management") version "1.0.8.RELEASE"
     id("com.jfrog.bintray") version "1.8.4"
 }
 

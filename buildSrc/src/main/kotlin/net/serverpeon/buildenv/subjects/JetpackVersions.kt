@@ -4,14 +4,10 @@ import com.squareup.moshi.JsonAdapter
 import com.vdurmont.semver4j.Semver
 import net.serverpeon.buildenv.JsoupSpec
 import org.jsoup.nodes.Document
-import org.jsoup.parser.Parser
-import java.io.File
-import java.net.URL
 import java.time.LocalDate
 import java.time.format.DateTimeFormatterBuilder
 import java.time.temporal.ChronoField
 import java.util.*
-import javax.inject.Inject
 
 // Representation of https://developer.android.com/jetpack/androidx/versions/
 data class JetpackVersions(
@@ -40,10 +36,7 @@ data class JetpackVersions(
         private const val LAST_UPDATE_SELECTOR = ".devsite-article-body table + p"
     }
 
-    open class Spec @Inject constructor(
-            url: URL,
-            output: File
-    ) : JsoupSpec<JetpackVersions>(url, output) {
+    abstract class Spec : JsoupSpec<JetpackVersions>() {
         override fun Document.parse(): JetpackVersions {
             val artifacts = select(VERSIONS_ROW_SELECTOR).associate { row ->
                 val columns = row.select("td").eachText()
@@ -64,9 +57,8 @@ data class JetpackVersions(
             return JetpackVersions(artifacts, LocalDate.parse(dateString, dateFormatter))
         }
 
-        override val parser: Parser
-            get() = Parser.htmlParser()
-
+        override val parserType: ParserType
+            get() = ParserType.HTML
         override val adapter: JsonAdapter<JetpackVersions>
             get() = moshi.adapter(JetpackVersions::class.java)
     }

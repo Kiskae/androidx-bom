@@ -8,20 +8,19 @@ import net.serverpeon.buildenv.subjects.fromJson
 import net.serverpeon.buildenv.subjects.moshi
 import okio.Okio
 import org.gradle.api.DefaultTask
+import org.gradle.api.file.RegularFile
 import org.gradle.api.file.RegularFileProperty
 import org.gradle.api.provider.MapProperty
-import org.gradle.api.tasks.Input
-import org.gradle.api.tasks.InputFile
-import org.gradle.api.tasks.OutputFile
-import org.gradle.api.tasks.TaskAction
+import org.gradle.api.tasks.*
 import org.slf4j.LoggerFactory
 import java.io.File
 import java.net.URL
 import java.time.LocalDate
 
 abstract class ManifestTask : DefaultTask() {
-    @get:Input
-    abstract val mavenArtifacts: MapProperty<URL, File>
+    @get:Internal
+    //FIXME: Can't be @Input since its not serializable
+    abstract val mavenArtifacts: MapProperty<URL, RegularFile>
 
     @get:InputFile
     abstract val preferredVersions: RegularFileProperty
@@ -39,7 +38,7 @@ abstract class ManifestTask : DefaultTask() {
     fun action() {
         val jetpackVersions = moshi.adapter(JetpackVersions::class.java).fromJson(preferredVersions.get().asFile)!!
         val mavenAdapter = moshi.adapter(MavenGroup::class.java)
-        val actualVersions = mavenArtifacts.get().values.associate {
+        val actualVersions = mavenArtifacts.get().values.map { it.asFile }.associate {
             it.nameWithoutExtension to mavenAdapter.fromJson(it)!!
         }
 

@@ -56,7 +56,7 @@ tasks {
             } ?: return@upToDateWhen false
 
             val new = parseJetpackVersions.flatMap(JSoupTask::entry).map { (_, versionsFile) ->
-                moshi.adapter(JetpackVersions::class.java).fromJson(versionsFile)!!
+                moshi.adapter(JetpackVersions::class.java).fromJson(versionsFile.asFile)!!
             }.get()
 
             old.lastUpdate == new.lastChanged
@@ -70,7 +70,7 @@ tasks {
 
         targets.putAll(parseJetpackVersions.flatMap(JSoupTask::entry).map { (_, versionsFile) ->
             val artifacts = (moshi.adapter(JetpackVersions::class.java)
-                    .fromJson(versionsFile)!!
+                    .fromJson(versionsFile.asFile)!!
                     .artifacts
                     .keys + extraKeys).toSet()
 
@@ -82,7 +82,7 @@ tasks {
 
                 groupIndex to outputDir.file("$it.json")
             }.mapValues {
-                it.value.get().asFile
+                it.value.get()
             }
         })
     }
@@ -90,9 +90,7 @@ tasks {
     val updateManifest by registering(ManifestTask::class) {
         dependsOn(parseArtifacts)
 
-        preferredVersions.set(project.layout.file(
-                parseJetpackVersions.flatMap(JSoupTask::entry).map { it.value }
-        ))
+        preferredVersions.set(parseJetpackVersions.flatMap(JSoupTask::entry).map { it.value })
         mavenArtifacts.set(parseArtifacts.flatMap(JSoupTask::targets))
 
         manifestOutput.set(versionManifest)

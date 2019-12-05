@@ -3513,8 +3513,7 @@
           "1.2.0-alpha01",
           "1.2.0-alpha02"
         ]
-      },
-      "jetpackVersions": {}
+      }
     },
     "compose-dev": {
       "groupId": "androidx.ui",
@@ -3584,8 +3583,7 @@
           "0.1.0-dev02",
           "0.1.0-dev03"
         ]
-      },
-      "jetpackVersions": {}
+      }
     }
   }
 }

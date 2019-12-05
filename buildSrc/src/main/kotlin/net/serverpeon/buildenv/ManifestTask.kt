@@ -11,7 +11,10 @@ import org.gradle.api.DefaultTask
 import org.gradle.api.file.RegularFile
 import org.gradle.api.file.RegularFileProperty
 import org.gradle.api.provider.MapProperty
-import org.gradle.api.tasks.*
+import org.gradle.api.tasks.InputFile
+import org.gradle.api.tasks.Internal
+import org.gradle.api.tasks.OutputFile
+import org.gradle.api.tasks.TaskAction
 import org.slf4j.LoggerFactory
 import java.io.File
 import java.net.URL
@@ -52,13 +55,6 @@ abstract class ManifestTask : DefaultTask() {
                                 it.stable ?: it.rc ?: it.beta ?: it.alpha
                             },
                             jetpackVersions.artifacts[groupName]
-                                    ?: JetpackVersions.Artifact(
-                                            LocalDate.MIN,
-                                            null,
-                                            null,
-                                            null,
-                                            null
-                                    )
                     )
                 }
         )
@@ -84,7 +80,7 @@ abstract class ManifestTask : DefaultTask() {
                 val groupId: String,
                 val artifacts: Map<String, List<Semver>>,
                 val preferred: Semver?,
-                val jetpackVersions: JetpackVersions.Artifact
+                val jetpackVersions: JetpackVersions.Artifact?
         ) {
             fun toMavenCoordinates(mavenProperty: String?): Map<String, String> {
                 return artifacts.entries.mapNotNull { (artifact, versions) ->

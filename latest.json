@@ -1,6 +1,8 @@
 {
+  "lastUpdate": "2019-12-04",
   "groups": {
     "activity": {
+      "groupId": "androidx.activity",
       "artifacts": {
         "activity-ktx": [
           "1.0.0-alpha01",
@@ -19,7 +21,8 @@
           "1.1.0-alpha03",
           "1.1.0-beta01",
           "1.1.0-rc01",
-          "1.1.0-rc02"
+          "1.1.0-rc02",
+          "1.1.0-rc03"
         ],
         "activity": [
           "1.0.0-alpha01",
@@ -38,18 +41,19 @@
           "1.1.0-alpha03",
           "1.1.0-beta01",
           "1.1.0-rc01",
-          "1.1.0-rc02"
+          "1.1.0-rc02",
+          "1.1.0-rc03"
         ]
       },
-      "groupId": "androidx.activity",
+      "preferred": "1.0.0",
       "jetpackVersions": {
-        "latestUpdate": "2019-11-07",
-        "rc": "1.1.0-rc02",
-        "stable": "1.0.0"
-      },
-      "preferred": "1.0.0"
+        "latestUpdate": "2019-12-04",
+        "stable": "1.0.0",
+        "rc": "1.1.0-rc03"
+      }
     },
     "ads": {
+      "groupId": "androidx.ads",
       "artifacts": {
         "ads-identifier": [
           "1.0.0-alpha01",
@@ -66,14 +70,14 @@
           "1.0.0-alpha02"
         ]
       },
-      "groupId": "androidx.ads",
+      "preferred": "1.0.0-alpha03",
       "jetpackVersions": {
-        "alpha": "1.0.0-alpha03",
-        "latestUpdate": "2019-11-20"
-      },
-      "preferred": "1.0.0-alpha03"
+        "latestUpdate": "2019-11-20",
+        "alpha": "1.0.0-alpha03"
+      }
     },
     "annotation": {
+      "groupId": "androidx.annotation",
       "artifacts": {
         "annotation": [
           "1.0.0-alpha1",
@@ -103,14 +107,14 @@
           "1.0.0"
         ]
       },
-      "groupId": "androidx.annotation",
+      "preferred": "1.1.0",
       "jetpackVersions": {
         "latestUpdate": "2019-11-07",
         "stable": "1.1.0"
-      },
-      "preferred": "1.1.0"
+      }
     },
     "appcompat": {
+      "groupId": "androidx.appcompat",
       "artifacts": {
         "appcompat": [
           "1.0.0-alpha1",
@@ -128,7 +132,8 @@
           "1.1.0-alpha05",
           "1.1.0-beta01",
           "1.1.0-rc01",
-          "1.1.0"
+          "1.1.0",
+          "1.2.0-alpha01"
         ],
         "appcompat-resources": [
           "1.1.0-alpha03",
@@ -136,17 +141,19 @@
           "1.1.0-alpha05",
           "1.1.0-beta01",
           "1.1.0-rc01",
-          "1.1.0"
+          "1.1.0",
+          "1.2.0-alpha01"
         ]
       },
-      "groupId": "androidx.appcompat",
+      "preferred": "1.1.0",
       "jetpackVersions": {
-        "latestUpdate": "2019-09-05",
-        "stable": "1.1.0"
-      },
-      "preferred": "1.1.0"
+        "latestUpdate": "2019-12-04",
+        "stable": "1.1.0",
+        "alpha": "1.2.0-alpha01"
+      }
     },
     "arch": {
+      "groupId": "androidx.arch.core",
       "artifacts": {
         "core-common": [
           "2.0.0-alpha1",
@@ -186,14 +193,14 @@
           "2.1.0"
         ]
       },
-      "groupId": "androidx.arch.core",
+      "preferred": "2.1.0",
       "jetpackVersions": {
         "latestUpdate": "2019-09-05",
         "stable": "2.1.0"
-      },
-      "preferred": "2.1.0"
+      }
     },
     "asynclayoutinflater": {
+      "groupId": "androidx.asynclayoutinflater",
       "artifacts": {
         "asynclayoutinflater": [
           "1.0.0-alpha1",
@@ -204,30 +211,31 @@
           "1.0.0"
         ]
       },
-      "groupId": "androidx.asynclayoutinflater",
+      "preferred": "1.0.0",
       "jetpackVersions": {
         "latestUpdate": "2018-09-21",
         "stable": "1.0.0"
-      },
-      "preferred": "1.0.0"
+      }
     },
     "autofill": {
+      "groupId": "androidx.autofill",
       "artifacts": {
         "autofill": [
           "1.0.0-alpha01",
           "1.0.0-alpha02",
           "1.0.0-beta01",
-          "1.0.0-rc01"
+          "1.0.0-rc01",
+          "1.0.0"
         ]
       },
-      "groupId": "androidx.autofill",
+      "preferred": "1.0.0",
       "jetpackVersions": {
-        "latestUpdate": "2019-10-23",
-        "rc": "1.0.0-rc01"
-      },
-      "preferred": "1.0.0-rc01"
+        "latestUpdate": "2019-12-04",
+        "stable": "1.0.0"
+      }
     },
     "benchmark": {
+      "groupId": "androidx.benchmark",
       "artifacts": {
         "benchmark-gradle-plugin": [
           "1.0.0-alpha01",
@@ -262,14 +270,14 @@
           "1.0.0"
         ]
       },
-      "groupId": "androidx.benchmark",
+      "preferred": "1.0.0",
       "jetpackVersions": {
         "latestUpdate": "2019-11-20",
         "stable": "1.0.0"
-      },
-      "preferred": "1.0.0"
+      }
     },
     "biometric": {
+      "groupId": "androidx.biometric",
       "artifacts": {
         "biometric": [
           "1.0.0-alpha01",
@@ -283,14 +291,14 @@
           "1.0.0"
         ]
       },
-      "groupId": "androidx.biometric",
+      "preferred": "1.0.0",
       "jetpackVersions": {
         "latestUpdate": "2019-11-07",
         "stable": "1.0.0"
-      },
-      "preferred": "1.0.0"
+      }
     },
     "browser": {
+      "groupId": "androidx.browser",
       "artifacts": {
         "browser": [
           "1.0.0-alpha1",
@@ -302,18 +310,19 @@
           "1.2.0-alpha07",
           "1.2.0-alpha08",
           "1.2.0-alpha09",
-          "1.2.0-beta01"
+          "1.2.0-beta01",
+          "1.2.0-rc01"
         ]
       },
-      "groupId": "androidx.browser",
+      "preferred": "1.0.0",
       "jetpackVersions": {
-        "beta": "1.2.0-beta01",
-        "latestUpdate": "2019-11-20",
-        "stable": "1.0.0"
-      },
-      "preferred": "1.0.0"
+        "latestUpdate": "2019-12-04",
+        "stable": "1.0.0",
+        "rc": "1.2.0-rc01"
+      }
     },
     "camera": {
+      "groupId": "androidx.camera",
       "artifacts": {
         "camera-core": [
           "1.0.0-alpha01",
@@ -321,7 +330,8 @@
           "1.0.0-alpha03",
           "1.0.0-alpha04",
           "1.0.0-alpha05",
-          "1.0.0-alpha06"
+          "1.0.0-alpha06",
+          "1.0.0-alpha07"
         ],
         "camera-camera2": [
           "1.0.0-alpha01",
@@ -329,27 +339,33 @@
           "1.0.0-alpha03",
           "1.0.0-alpha04",
           "1.0.0-alpha05",
-          "1.0.0-alpha06"
+          "1.0.0-alpha06",
+          "1.0.0-alpha07"
         ],
         "camera-view": [
           "1.0.0-alpha01",
           "1.0.0-alpha02",
-          "1.0.0-alpha03"
+          "1.0.0-alpha03",
+          "1.0.0-alpha04"
         ],
         "camera-extensions": [
           "1.0.0-alpha01",
           "1.0.0-alpha02",
-          "1.0.0-alpha03"
+          "1.0.0-alpha03",
+          "1.0.0-alpha04"
+        ],
+        "camera-lifecycle": [
+          "1.0.0-alpha01"
         ]
       },
-      "groupId": "androidx.camera",
+      "preferred": "1.0.0-alpha07",
       "jetpackVersions": {
-        "alpha": "1.0.0-alpha06",
-        "latestUpdate": "2019-10-09"
-      },
-      "preferred": "1.0.0-alpha06"
+        "latestUpdate": "2019-12-04",
+        "alpha": "1.0.0-alpha07"
+      }
     },
     "car": {
+      "groupId": "androidx.car",
       "artifacts": {
         "car": [
           "1.0.0-alpha1",
@@ -362,14 +378,14 @@
           "1.0.0-alpha5"
         ]
       },
-      "groupId": "androidx.car",
+      "preferred": "1.0.0-alpha7",
       "jetpackVersions": {
-        "alpha": "1.0.0-alpha7",
-        "latestUpdate": "2019-04-03"
-      },
-      "preferred": "1.0.0-alpha7"
+        "latestUpdate": "2019-04-03",
+        "alpha": "1.0.0-alpha7"
+      }
     },
     "cardview": {
+      "groupId": "androidx.cardview",
       "artifacts": {
         "cardview": [
           "1.0.0-alpha1",
@@ -380,14 +396,14 @@
           "1.0.0"
         ]
       },
-      "groupId": "androidx.cardview",
+      "preferred": "1.0.0",
       "jetpackVersions": {
         "latestUpdate": "2018-09-21",
         "stable": "1.0.0"
-      },
-      "preferred": "1.0.0"
+      }
     },
     "collection": {
+      "groupId": "androidx.collection",
       "artifacts": {
         "collection-ktx": [
           "1.0.0-alpha1",
@@ -418,14 +434,14 @@
           "1.1.0"
         ]
       },
-      "groupId": "androidx.collection",
+      "preferred": "1.1.0",
       "jetpackVersions": {
         "latestUpdate": "2019-06-05",
         "stable": "1.1.0"
-      },
-      "preferred": "1.1.0"
+      }
     },
     "concurrent": {
+      "groupId": "androidx.concurrent",
       "artifacts": {
         "futures": [
           "1.0.0-alpha01"
@@ -444,14 +460,14 @@
           "1.0.0-beta01"
         ]
       },
-      "groupId": "androidx.concurrent",
+      "preferred": "1.0.0",
       "jetpackVersions": {
         "latestUpdate": "2019-10-09",
         "stable": "1.0.0"
-      },
-      "preferred": "1.0.0"
+      }
     },
     "constraintlayout": {
+      "groupId": "androidx.constraintlayout",
       "artifacts": {
         "constraintlayout-solver": [
           "1.1.0",
@@ -482,15 +498,15 @@
           "2.0.0-beta3"
         ]
       },
-      "groupId": "androidx.constraintlayout",
+      "preferred": "1.1.3",
       "jetpackVersions": {
-        "beta": "2.0.0-beta2",
         "latestUpdate": "2019-06-17",
-        "stable": "1.1.3"
-      },
-      "preferred": "1.1.3"
+        "stable": "1.1.3",
+        "beta": "2.0.0-beta2"
+      }
     },
     "contentpager": {
+      "groupId": "androidx.contentpager",
       "artifacts": {
         "contentpager": [
           "1.0.0-alpha1",
@@ -501,14 +517,14 @@
           "1.0.0"
         ]
       },
-      "groupId": "androidx.contentpager",
+      "preferred": "1.0.0",
       "jetpackVersions": {
         "latestUpdate": "2018-09-21",
         "stable": "1.0.0"
-      },
-      "preferred": "1.0.0"
+      }
     },
     "coordinatorlayout": {
+      "groupId": "androidx.coordinatorlayout",
       "artifacts": {
         "coordinatorlayout": [
           "1.0.0-alpha1",
@@ -519,18 +535,18 @@
           "1.0.0",
           "1.1.0-alpha01",
           "1.1.0-beta01",
-          "1.1.0-rc01"
+          "1.1.0-rc01",
+          "1.1.0"
         ]
       },
-      "groupId": "androidx.coordinatorlayout",
+      "preferred": "1.1.0",
       "jetpackVersions": {
-        "latestUpdate": "2019-10-23",
-        "rc": "1.1.0-rc01",
-        "stable": "1.0.0"
-      },
-      "preferred": "1.0.0"
+        "latestUpdate": "2019-12-04",
+        "stable": "1.1.0"
+      }
     },
     "core": {
+      "groupId": "androidx.core",
       "artifacts": {
         "core-ktx": [
           "1.0.0-alpha1",
@@ -591,15 +607,15 @@
           "1.0.0-beta01"
         ]
       },
-      "groupId": "androidx.core",
+      "preferred": "1.1.0",
       "jetpackVersions": {
         "latestUpdate": "2019-11-20",
-        "rc": "1.2.0-rc01",
-        "stable": "1.1.0"
-      },
-      "preferred": "1.1.0"
+        "stable": "1.1.0",
+        "rc": "1.2.0-rc01"
+      }
     },
     "cursoradapter": {
+      "groupId": "androidx.cursoradapter",
       "artifacts": {
         "cursoradapter": [
           "1.0.0-alpha1",
@@ -610,14 +626,14 @@
           "1.0.0"
         ]
       },
-      "groupId": "androidx.cursoradapter",
+      "preferred": "1.0.0",
       "jetpackVersions": {
         "latestUpdate": "2018-09-21",
         "stable": "1.0.0"
-      },
-      "preferred": "1.0.0"
+      }
     },
     "customview": {
+      "groupId": "androidx.customview",
       "artifacts": {
         "customview": [
           "1.0.0-alpha1",
@@ -629,15 +645,15 @@
           "1.1.0-alpha01"
         ]
       },
-      "groupId": "androidx.customview",
+      "preferred": "1.0.0",
       "jetpackVersions": {
-        "alpha": "1.1.0-alpha01",
         "latestUpdate": "2018-06-13",
-        "stable": "1.0.0"
-      },
-      "preferred": "1.0.0"
+        "stable": "1.0.0",
+        "alpha": "1.1.0-alpha01"
+      }
     },
     "databinding": {
+      "groupId": "androidx.databinding",
       "artifacts": {
         "baseLibrary": [
           "3.2.0-alpha11"
@@ -756,10 +772,12 @@
           "3.6.0-beta02",
           "3.6.0-beta03",
           "3.6.0-beta04",
+          "3.6.0-beta05",
           "4.0.0-alpha01",
           "4.0.0-alpha02",
           "4.0.0-alpha03",
-          "4.0.0-alpha04"
+          "4.0.0-alpha04",
+          "4.0.0-alpha05"
         ],
         "databinding-adapters": [
           "3.2.0-alpha12",
@@ -863,10 +881,12 @@
           "3.6.0-beta02",
           "3.6.0-beta03",
           "3.6.0-beta04",
+          "3.6.0-beta05",
           "4.0.0-alpha01",
           "4.0.0-alpha02",
           "4.0.0-alpha03",
-          "4.0.0-alpha04"
+          "4.0.0-alpha04",
+          "4.0.0-alpha05"
         ],
         "databinding-compiler-common": [
           "3.2.0-alpha12",
@@ -970,10 +990,12 @@
           "3.6.0-beta02",
           "3.6.0-beta03",
           "3.6.0-beta04",
+          "3.6.0-beta05",
           "4.0.0-alpha01",
           "4.0.0-alpha02",
           "4.0.0-alpha03",
-          "4.0.0-alpha04"
+          "4.0.0-alpha04",
+          "4.0.0-alpha05"
         ],
         "databinding-compiler": [
           "3.2.0-alpha12",
@@ -1077,10 +1099,12 @@
           "3.6.0-beta02",
           "3.6.0-beta03",
           "3.6.0-beta04",
+          "3.6.0-beta05",
           "4.0.0-alpha01",
           "4.0.0-alpha02",
           "4.0.0-alpha03",
-          "4.0.0-alpha04"
+          "4.0.0-alpha04",
+          "4.0.0-alpha05"
         ],
         "databinding-common": [
           "3.2.0-alpha12",
@@ -1184,10 +1208,12 @@
           "3.6.0-beta02",
           "3.6.0-beta03",
           "3.6.0-beta04",
+          "3.6.0-beta05",
           "4.0.0-alpha01",
           "4.0.0-alpha02",
           "4.0.0-alpha03",
-          "4.0.0-alpha04"
+          "4.0.0-alpha04",
+          "4.0.0-alpha05"
         ],
         "viewbinding": [
           "3.6.0-alpha01",
@@ -1206,21 +1232,23 @@
           "3.6.0-beta02",
           "3.6.0-beta03",
           "3.6.0-beta04",
+          "3.6.0-beta05",
           "4.0.0-alpha01",
           "4.0.0-alpha02",
           "4.0.0-alpha03",
-          "4.0.0-alpha04"
+          "4.0.0-alpha04",
+          "4.0.0-alpha05"
         ]
       },
-      "groupId": "androidx.databinding",
+      "preferred": "3.5.0",
       "jetpackVersions": {
-        "alpha": "3.6.0-alpha10",
         "latestUpdate": "2019-09-05",
-        "stable": "3.5.0"
-      },
-      "preferred": "3.5.0"
+        "stable": "3.5.0",
+        "alpha": "3.6.0-alpha10"
+      }
     },
     "documentfile": {
+      "groupId": "androidx.documentfile",
       "artifacts": {
         "documentfile": [
           "1.0.0-alpha1",
@@ -1232,14 +1260,14 @@
           "1.0.1"
         ]
       },
-      "groupId": "androidx.documentfile",
+      "preferred": "1.0.1",
       "jetpackVersions": {
         "latestUpdate": "2019-02-25",
         "stable": "1.0.1"
-      },
-      "preferred": "1.0.1"
+      }
     },
     "drawerlayout": {
+      "groupId": "androidx.drawerlayout",
       "artifacts": {
         "drawerlayout": [
           "1.0.0-alpha1",
@@ -1253,15 +1281,15 @@
           "1.1.0-alpha03"
         ]
       },
-      "groupId": "androidx.drawerlayout",
+      "preferred": "1.0.0",
       "jetpackVersions": {
-        "alpha": "1.1.0-alpha03",
         "latestUpdate": "2019-08-15",
-        "stable": "1.0.0"
-      },
-      "preferred": "1.0.0"
+        "stable": "1.0.0",
+        "alpha": "1.1.0-alpha03"
+      }
     },
     "dynamicanimation": {
+      "groupId": "androidx.dynamicanimation",
       "artifacts": {
         "dynamicanimation": [
           "1.0.0-alpha1",
@@ -1271,22 +1299,24 @@
           "1.0.0-rc02",
           "1.0.0",
           "1.1.0-alpha01",
-          "1.1.0-alpha02"
+          "1.1.0-alpha02",
+          "1.1.0-alpha03"
         ],
         "dynamicanimation-ktx": [
           "1.0.0-alpha01",
-          "1.0.0-alpha02"
+          "1.0.0-alpha02",
+          "1.0.0-alpha03"
         ]
       },
-      "groupId": "androidx.dynamicanimation",
+      "preferred": "1.0.0",
       "jetpackVersions": {
-        "alpha": "1.1.0-alpha02",
-        "latestUpdate": "2019-07-02",
-        "stable": "1.0.0"
-      },
-      "preferred": "1.0.0"
+        "latestUpdate": "2019-12-04",
+        "stable": "1.0.0",
+        "alpha": "1.1.0-alpha03"
+      }
     },
     "emoji": {
+      "groupId": "androidx.emoji",
       "artifacts": {
         "emoji": [
           "1.0.0-alpha1",
@@ -1313,14 +1343,14 @@
           "1.0.0"
         ]
       },
-      "groupId": "androidx.emoji",
+      "preferred": "1.0.0",
       "jetpackVersions": {
         "latestUpdate": "2018-09-21",
         "stable": "1.0.0"
-      },
-      "preferred": "1.0.0"
+      }
     },
     "enterprise": {
+      "groupId": "androidx.enterprise",
       "artifacts": {
         "enterprise-feedback": [
           "1.0.0-alpha01",
@@ -1336,14 +1366,14 @@
           "1.0.0-rc01"
         ]
       },
-      "groupId": "androidx.enterprise",
+      "preferred": "1.0.0-rc01",
       "jetpackVersions": {
         "latestUpdate": "2019-10-09",
         "rc": "1.0.0-rc01"
-      },
-      "preferred": "1.0.0-rc01"
+      }
     },
     "exifinterface": {
+      "groupId": "androidx.exifinterface",
       "artifacts": {
         "exifinterface": [
           "1.0.0-alpha1",
@@ -1358,14 +1388,14 @@
           "1.1.0"
         ]
       },
-      "groupId": "androidx.exifinterface",
+      "preferred": "1.1.0",
       "jetpackVersions": {
         "latestUpdate": "2019-11-20",
         "stable": "1.1.0"
-      },
-      "preferred": "1.1.0"
+      }
     },
     "fragment": {
+      "groupId": "androidx.fragment",
       "artifacts": {
         "fragment-ktx": [
           "1.0.0-alpha1",
@@ -1396,7 +1426,8 @@
           "1.2.0-beta01",
           "1.2.0-beta02",
           "1.2.0-rc01",
-          "1.2.0-rc02"
+          "1.2.0-rc02",
+          "1.2.0-rc03"
         ],
         "fragment": [
           "1.0.0-alpha1",
@@ -1427,7 +1458,8 @@
           "1.2.0-beta01",
           "1.2.0-beta02",
           "1.2.0-rc01",
-          "1.2.0-rc02"
+          "1.2.0-rc02",
+          "1.2.0-rc03"
         ],
         "fragment-testing": [
           "1.1.0-alpha01",
@@ -1452,18 +1484,19 @@
           "1.2.0-beta01",
           "1.2.0-beta02",
           "1.2.0-rc01",
-          "1.2.0-rc02"
+          "1.2.0-rc02",
+          "1.2.0-rc03"
         ]
       },
-      "groupId": "androidx.fragment",
+      "preferred": "1.1.0",
       "jetpackVersions": {
-        "latestUpdate": "2019-11-07",
-        "rc": "1.2.0-rc02",
-        "stable": "1.1.0"
-      },
-      "preferred": "1.1.0"
+        "latestUpdate": "2019-12-04",
+        "stable": "1.1.0",
+        "rc": "1.2.0-rc03"
+      }
     },
     "gridlayout": {
+      "groupId": "androidx.gridlayout",
       "artifacts": {
         "gridlayout": [
           "1.0.0-alpha1",
@@ -1474,14 +1507,14 @@
           "1.0.0"
         ]
       },
-      "groupId": "androidx.gridlayout",
+      "preferred": "1.0.0",
       "jetpackVersions": {
         "latestUpdate": "2018-09-21",
         "stable": "1.0.0"
-      },
-      "preferred": "1.0.0"
+      }
     },
     "heifwriter": {
+      "groupId": "androidx.heifwriter",
       "artifacts": {
         "heifwriter": [
           "1.0.0-alpha1",
@@ -1492,14 +1525,14 @@
           "1.0.0"
         ]
       },
-      "groupId": "androidx.heifwriter",
+      "preferred": "1.0.0",
       "jetpackVersions": {
         "latestUpdate": "2018-09-21",
         "stable": "1.0.0"
-      },
-      "preferred": "1.0.0"
+      }
     },
     "interpolator": {
+      "groupId": "androidx.interpolator",
       "artifacts": {
         "interpolator": [
           "1.0.0-alpha1",
@@ -1510,14 +1543,14 @@
           "1.0.0"
         ]
       },
-      "groupId": "androidx.interpolator",
+      "preferred": "1.0.0",
       "jetpackVersions": {
         "latestUpdate": "2018-09-21",
         "stable": "1.0.0"
-      },
-      "preferred": "1.0.0"
+      }
     },
     "jetifier": {
+      "groupId": "com.android.tools.build.jetifier",
       "artifacts": {
         "jetifier-processor": [
           "0.0.1",
@@ -1560,14 +1593,14 @@
           "1.0.0-beta08"
         ]
       },
-      "groupId": "com.android.tools.build.jetifier",
+      "preferred": "1.0.0-beta08",
       "jetpackVersions": {
-        "beta": "1.0.0-beta08",
-        "latestUpdate": "2019-11-20"
-      },
-      "preferred": "1.0.0-beta08"
+        "latestUpdate": "2019-11-20",
+        "beta": "1.0.0-beta08"
+      }
     },
     "leanback": {
+      "groupId": "androidx.leanback",
       "artifacts": {
         "leanback": [
           "1.0.0-alpha1",
@@ -1590,15 +1623,15 @@
           "1.1.0-alpha02"
         ]
       },
-      "groupId": "androidx.leanback",
+      "preferred": "1.0.0",
       "jetpackVersions": {
-        "alpha": "1.1.0-alpha02",
         "latestUpdate": "2019-05-07",
-        "stable": "1.0.0"
-      },
-      "preferred": "1.0.0"
+        "stable": "1.0.0",
+        "alpha": "1.1.0-alpha02"
+      }
     },
     "legacy": {
+      "groupId": "androidx.legacy",
       "artifacts": {
         "legacy-support-v13": [
           "1.0.0-alpha1",
@@ -1641,14 +1674,14 @@
           "1.0.0"
         ]
       },
-      "groupId": "androidx.legacy",
+      "preferred": "1.0.0",
       "jetpackVersions": {
         "latestUpdate": "2018-09-21",
         "stable": "1.0.0"
-      },
-      "preferred": "1.0.0"
+      }
     },
     "lifecycle": {
+      "groupId": "androidx.lifecycle",
       "artifacts": {
         "lifecycle-reactivestreams-ktx": [
           "2.0.0-alpha1",
@@ -1669,7 +1702,8 @@
           "2.2.0-alpha05",
           "2.2.0-beta01",
           "2.2.0-rc01",
-          "2.2.0-rc02"
+          "2.2.0-rc02",
+          "2.2.0-rc03"
         ],
         "lifecycle-viewmodel": [
           "2.0.0-alpha1",
@@ -1690,7 +1724,8 @@
           "2.2.0-alpha05",
           "2.2.0-beta01",
           "2.2.0-rc01",
-          "2.2.0-rc02"
+          "2.2.0-rc02",
+          "2.2.0-rc03"
         ],
         "lifecycle-process": [
           "2.0.0-alpha1",
@@ -1711,7 +1746,8 @@
           "2.2.0-alpha05",
           "2.2.0-beta01",
           "2.2.0-rc01",
-          "2.2.0-rc02"
+          "2.2.0-rc02",
+          "2.2.0-rc03"
         ],
         "lifecycle-viewmodel-ktx": [
           "2.0.0-alpha1",
@@ -1732,7 +1768,8 @@
           "2.2.0-alpha05",
           "2.2.0-beta01",
           "2.2.0-rc01",
-          "2.2.0-rc02"
+          "2.2.0-rc02",
+          "2.2.0-rc03"
         ],
         "lifecycle-reactivestreams": [
           "2.0.0-alpha1",
@@ -1753,7 +1790,8 @@
           "2.2.0-alpha05",
           "2.2.0-beta01",
           "2.2.0-rc01",
-          "2.2.0-rc02"
+          "2.2.0-rc02",
+          "2.2.0-rc03"
         ],
         "lifecycle-common-java8": [
           "2.0.0-alpha1",
@@ -1774,7 +1812,8 @@
           "2.2.0-alpha05",
           "2.2.0-beta01",
           "2.2.0-rc01",
-          "2.2.0-rc02"
+          "2.2.0-rc02",
+          "2.2.0-rc03"
         ],
         "lifecycle-extensions": [
           "2.0.0-alpha1",
@@ -1795,7 +1834,8 @@
           "2.2.0-alpha05",
           "2.2.0-beta01",
           "2.2.0-rc01",
-          "2.2.0-rc02"
+          "2.2.0-rc02",
+          "2.2.0-rc03"
         ],
         "lifecycle-livedata-core": [
           "2.0.0-alpha1",
@@ -1816,7 +1856,8 @@
           "2.2.0-alpha05",
           "2.2.0-beta01",
           "2.2.0-rc01",
-          "2.2.0-rc02"
+          "2.2.0-rc02",
+          "2.2.0-rc03"
         ],
         "lifecycle-runtime": [
           "2.0.0-alpha1",
@@ -1837,7 +1878,8 @@
           "2.2.0-alpha05",
           "2.2.0-beta01",
           "2.2.0-rc01",
-          "2.2.0-rc02"
+          "2.2.0-rc02",
+          "2.2.0-rc03"
         ],
         "lifecycle-compiler": [
           "2.0.0-alpha1",
@@ -1858,7 +1900,8 @@
           "2.2.0-alpha05",
           "2.2.0-beta01",
           "2.2.0-rc01",
-          "2.2.0-rc02"
+          "2.2.0-rc02",
+          "2.2.0-rc03"
         ],
         "lifecycle-livedata": [
           "2.0.0-alpha1",
@@ -1879,7 +1922,8 @@
           "2.2.0-alpha05",
           "2.2.0-beta01",
           "2.2.0-rc01",
-          "2.2.0-rc02"
+          "2.2.0-rc02",
+          "2.2.0-rc03"
         ],
         "lifecycle-common": [
           "2.0.0-alpha1",
@@ -1900,7 +1944,8 @@
           "2.2.0-alpha05",
           "2.2.0-beta01",
           "2.2.0-rc01",
-          "2.2.0-rc02"
+          "2.2.0-rc02",
+          "2.2.0-rc03"
         ],
         "lifecycle-service": [
           "2.0.0-alpha1",
@@ -1921,7 +1966,8 @@
           "2.2.0-alpha05",
           "2.2.0-beta01",
           "2.2.0-rc01",
-          "2.2.0-rc02"
+          "2.2.0-rc02",
+          "2.2.0-rc03"
         ],
         "lifecycle-livedata-ktx": [
           "2.1.0-alpha01",
@@ -1938,7 +1984,8 @@
           "2.2.0-alpha05",
           "2.2.0-beta01",
           "2.2.0-rc01",
-          "2.2.0-rc02"
+          "2.2.0-rc02",
+          "2.2.0-rc03"
         ],
         "lifecycle-livedata-core-ktx": [
           "2.1.0-alpha01",
@@ -1955,7 +2002,8 @@
           "2.2.0-alpha05",
           "2.2.0-beta01",
           "2.2.0-rc01",
-          "2.2.0-rc02"
+          "2.2.0-rc02",
+          "2.2.0-rc03"
         ],
         "lifecycle-viewmodel-savedstate": [
           "1.0.0-alpha01",
@@ -1965,7 +2013,8 @@
           "1.0.0-alpha05",
           "1.0.0-beta01",
           "1.0.0-rc01",
-          "1.0.0-rc02"
+          "1.0.0-rc02",
+          "1.0.0-rc03"
         ],
         "lifecycle-runtime-ktx": [
           "2.2.0-alpha01",
@@ -1975,18 +2024,19 @@
           "2.2.0-alpha05",
           "2.2.0-beta01",
           "2.2.0-rc01",
-          "2.2.0-rc02"
+          "2.2.0-rc02",
+          "2.2.0-rc03"
         ]
       },
-      "groupId": "androidx.lifecycle",
+      "preferred": "2.1.0",
       "jetpackVersions": {
-        "latestUpdate": "2019-11-07",
-        "rc": "2.2.0-rc02",
-        "stable": "2.1.0"
-      },
-      "preferred": "2.1.0"
+        "latestUpdate": "2019-12-04",
+        "stable": "2.1.0",
+        "rc": "2.2.0-rc03"
+      }
     },
     "loader": {
+      "groupId": "androidx.loader",
       "artifacts": {
         "loader": [
           "1.0.0-alpha1",
@@ -2001,14 +2051,14 @@
           "1.1.0"
         ]
       },
-      "groupId": "androidx.loader",
+      "preferred": "1.1.0",
       "jetpackVersions": {
         "latestUpdate": "2019-10-09",
         "stable": "1.1.0"
-      },
-      "preferred": "1.1.0"
+      }
     },
     "localbroadcastmanager": {
+      "groupId": "androidx.localbroadcastmanager",
       "artifacts": {
         "localbroadcastmanager": [
           "1.0.0-alpha1",
@@ -2020,15 +2070,15 @@
           "1.1.0-alpha01"
         ]
       },
-      "groupId": "androidx.localbroadcastmanager",
+      "preferred": "1.0.0",
       "jetpackVersions": {
-        "alpha": "1.1.0-alpha01",
         "latestUpdate": "2018-12-17",
-        "stable": "1.0.0"
-      },
-      "preferred": "1.0.0"
+        "stable": "1.0.0",
+        "alpha": "1.1.0-alpha01"
+      }
     },
     "media": {
+      "groupId": "androidx.media",
       "artifacts": {
         "media-widget": [
           "1.0.0-alpha1",
@@ -2056,15 +2106,15 @@
           "1.2.0-alpha01"
         ]
       },
-      "groupId": "androidx.media",
+      "preferred": "1.1.0",
       "jetpackVersions": {
-        "alpha": "1.2.0-alpha01",
         "latestUpdate": "2019-10-23",
-        "stable": "1.1.0"
-      },
-      "preferred": "1.1.0"
+        "stable": "1.1.0",
+        "alpha": "1.2.0-alpha01"
+      }
     },
     "media2": {
+      "groupId": "androidx.media2",
       "artifacts": {
         "media2": [
           "1.0.0-alpha01",
@@ -2112,14 +2162,14 @@
           "1.0.1"
         ]
       },
-      "groupId": "androidx.media2",
+      "preferred": "1.0.1",
       "jetpackVersions": {
         "latestUpdate": "2019-10-09",
         "stable": "1.0.1"
-      },
-      "preferred": "1.0.1"
+      }
     },
     "mediarouter": {
+      "groupId": "androidx.mediarouter",
       "artifacts": {
         "mediarouter": [
           "1.0.0-alpha1",
@@ -2137,14 +2187,14 @@
           "1.1.0"
         ]
       },
-      "groupId": "androidx.mediarouter",
+      "preferred": "1.1.0",
       "jetpackVersions": {
         "latestUpdate": "2019-09-05",
         "stable": "1.1.0"
-      },
-      "preferred": "1.1.0"
+      }
     },
     "multidex": {
+      "groupId": "androidx.multidex",
       "artifacts": {
         "multidex": [
           "2.0.0",
@@ -2154,14 +2204,14 @@
           "2.0.0"
         ]
       },
-      "groupId": "androidx.multidex",
+      "preferred": "2.0.1",
       "jetpackVersions": {
         "latestUpdate": "2018-12-17",
         "stable": "2.0.1"
-      },
-      "preferred": "2.0.1"
+      }
     },
     "navigation": {
+      "groupId": "androidx.navigation",
       "artifacts": {
         "navigation-fragment-ktx": [
           "2.0.0-rc02",
@@ -2181,7 +2231,8 @@
           "2.2.0-alpha03",
           "2.2.0-beta01",
           "2.2.0-rc01",
-          "2.2.0-rc02"
+          "2.2.0-rc02",
+          "2.2.0-rc03"
         ],
         "navigation-safe-args-generator": [
           "2.0.0-rc02",
@@ -2201,7 +2252,8 @@
           "2.2.0-alpha03",
           "2.2.0-beta01",
           "2.2.0-rc01",
-          "2.2.0-rc02"
+          "2.2.0-rc02",
+          "2.2.0-rc03"
         ],
         "navigation-ui": [
           "2.0.0-rc02",
@@ -2221,7 +2273,8 @@
           "2.2.0-alpha03",
           "2.2.0-beta01",
           "2.2.0-rc01",
-          "2.2.0-rc02"
+          "2.2.0-rc02",
+          "2.2.0-rc03"
         ],
         "navigation-fragment": [
           "2.0.0-rc02",
@@ -2241,7 +2294,8 @@
           "2.2.0-alpha03",
           "2.2.0-beta01",
           "2.2.0-rc01",
-          "2.2.0-rc02"
+          "2.2.0-rc02",
+          "2.2.0-rc03"
         ],
         "navigation-safe-args-gradle-plugin": [
           "2.0.0-rc02",
@@ -2261,7 +2315,8 @@
           "2.2.0-alpha03",
           "2.2.0-beta01",
           "2.2.0-rc01",
-          "2.2.0-rc02"
+          "2.2.0-rc02",
+          "2.2.0-rc03"
         ],
         "navigation-ui-ktx": [
           "2.0.0-rc02",
@@ -2281,7 +2336,8 @@
           "2.2.0-alpha03",
           "2.2.0-beta01",
           "2.2.0-rc01",
-          "2.2.0-rc02"
+          "2.2.0-rc02",
+          "2.2.0-rc03"
         ],
         "navigation-common": [
           "2.0.0-rc02",
@@ -2301,7 +2357,8 @@
           "2.2.0-alpha03",
           "2.2.0-beta01",
           "2.2.0-rc01",
-          "2.2.0-rc02"
+          "2.2.0-rc02",
+          "2.2.0-rc03"
         ],
         "navigation-runtime": [
           "2.0.0-rc02",
@@ -2321,7 +2378,8 @@
           "2.2.0-alpha03",
           "2.2.0-beta01",
           "2.2.0-rc01",
-          "2.2.0-rc02"
+          "2.2.0-rc02",
+          "2.2.0-rc03"
         ],
         "navigation-runtime-ktx": [
           "2.0.0-rc02",
@@ -2341,7 +2399,8 @@
           "2.2.0-alpha03",
           "2.2.0-beta01",
           "2.2.0-rc01",
-          "2.2.0-rc02"
+          "2.2.0-rc02",
+          "2.2.0-rc03"
         ],
         "navigation-common-ktx": [
           "2.0.0-rc02",
@@ -2361,18 +2420,19 @@
           "2.2.0-alpha03",
           "2.2.0-beta01",
           "2.2.0-rc01",
-          "2.2.0-rc02"
+          "2.2.0-rc02",
+          "2.2.0-rc03"
         ]
       },
-      "groupId": "androidx.navigation",
+      "preferred": "2.1.0",
       "jetpackVersions": {
-        "latestUpdate": "2019-11-07",
-        "rc": "2.2.0-rc02",
-        "stable": "2.1.0"
-      },
-      "preferred": "2.1.0"
+        "latestUpdate": "2019-12-04",
+        "stable": "2.1.0",
+        "rc": "2.2.0-rc03"
+      }
     },
     "paging": {
+      "groupId": "androidx.paging",
       "artifacts": {
         "paging-common": [
           "2.0.0-alpha1",
@@ -2424,14 +2484,14 @@
           "2.1.0"
         ]
       },
-      "groupId": "androidx.paging",
+      "preferred": "2.1.0",
       "jetpackVersions": {
         "latestUpdate": "2019-01-25",
         "stable": "2.1.0"
-      },
-      "preferred": "2.1.0"
+      }
     },
     "palette": {
+      "groupId": "androidx.palette",
       "artifacts": {
         "palette-ktx": [
           "1.0.0-alpha1",
@@ -2450,14 +2510,14 @@
           "1.0.0"
         ]
       },
-      "groupId": "androidx.palette",
+      "preferred": "1.0.0",
       "jetpackVersions": {
         "latestUpdate": "2018-09-21",
         "stable": "1.0.0"
-      },
-      "preferred": "1.0.0"
+      }
     },
     "percentlayout": {
+      "groupId": "androidx.percentlayout",
       "artifacts": {
         "percentlayout": [
           "1.0.0-alpha1",
@@ -2468,14 +2528,14 @@
           "1.0.0"
         ]
       },
-      "groupId": "androidx.percentlayout",
+      "preferred": "1.0.0",
       "jetpackVersions": {
         "latestUpdate": "2018-09-21",
         "stable": "1.0.0"
-      },
-      "preferred": "1.0.0"
+      }
     },
     "preference": {
+      "groupId": "androidx.preference",
       "artifacts": {
         "preference": [
           "1.0.0-alpha1",
@@ -2508,14 +2568,14 @@
           "1.1.0"
         ]
       },
-      "groupId": "androidx.preference",
+      "preferred": "1.1.0",
       "jetpackVersions": {
         "latestUpdate": "2019-09-05",
         "stable": "1.1.0"
-      },
-      "preferred": "1.1.0"
+      }
     },
     "print": {
+      "groupId": "androidx.print",
       "artifacts": {
         "print": [
           "1.0.0-alpha1",
@@ -2526,14 +2586,14 @@
           "1.0.0"
         ]
       },
-      "groupId": "androidx.print",
+      "preferred": "1.0.0",
       "jetpackVersions": {
         "latestUpdate": "2018-09-21",
         "stable": "1.0.0"
-      },
-      "preferred": "1.0.0"
+      }
     },
     "recommendation": {
+      "groupId": "androidx.recommendation",
       "artifacts": {
         "recommendation": [
           "1.0.0-alpha1",
@@ -2544,14 +2604,14 @@
           "1.0.0"
         ]
       },
-      "groupId": "androidx.recommendation",
+      "preferred": "1.0.0",
       "jetpackVersions": {
         "latestUpdate": "2018-09-21",
         "stable": "1.0.0"
-      },
-      "preferred": "1.0.0"
+      }
     },
     "recyclerview": {
+      "groupId": "androidx.recyclerview",
       "artifacts": {
         "recyclerview-selection": [
           "1.0.0-alpha1",
@@ -2562,7 +2622,8 @@
           "1.0.0",
           "1.1.0-alpha01",
           "1.1.0-alpha05",
-          "1.1.0-alpha06"
+          "1.1.0-alpha06",
+          "1.1.0-beta01"
         ],
         "recyclerview": [
           "1.0.0-alpha1",
@@ -2586,14 +2647,14 @@
           "1.1.0"
         ]
       },
-      "groupId": "androidx.recyclerview",
+      "preferred": "1.1.0",
       "jetpackVersions": {
-        "latestUpdate": "2019-11-20",
+        "latestUpdate": "2019-12-04",
         "stable": "1.1.0"
-      },
-      "preferred": "1.1.0"
+      }
     },
     "remotecallback": {
+      "groupId": "androidx.remotecallback",
       "artifacts": {
         "remotecallback": [
           "1.0.0-alpha01",
@@ -2604,14 +2665,14 @@
           "1.0.0-alpha02"
         ]
       },
-      "groupId": "androidx.remotecallback",
+      "preferred": "1.0.0-alpha02",
       "jetpackVersions": {
-        "alpha": "1.0.0-alpha02",
-        "latestUpdate": "2019-05-07"
-      },
-      "preferred": "1.0.0-alpha02"
+        "latestUpdate": "2019-05-07",
+        "alpha": "1.0.0-alpha02"
+      }
     },
     "room": {
+      "groupId": "androidx.room",
       "artifacts": {
         "room-rxjava2": [
           "2.0.0-alpha1",
@@ -2794,14 +2855,14 @@
           "2.2.2"
         ]
       },
-      "groupId": "androidx.room",
+      "preferred": "2.2.2",
       "jetpackVersions": {
         "latestUpdate": "2019-11-20",
         "stable": "2.2.2"
-      },
-      "preferred": "2.2.2"
+      }
     },
     "savedstate": {
+      "groupId": "androidx.savedstate",
       "artifacts": {
         "savedstate-common": [
           "1.0.0-alpha01"
@@ -2816,44 +2877,45 @@
           "1.0.0"
         ]
       },
-      "groupId": "androidx.savedstate",
+      "preferred": "1.0.0",
       "jetpackVersions": {
         "latestUpdate": "2019-09-05",
         "stable": "1.0.0"
-      },
-      "preferred": "1.0.0"
+      }
     },
     "security": {
+      "groupId": "androidx.security",
       "artifacts": {
         "security-crypto": [
           "1.0.0-alpha01",
           "1.0.0-alpha02"
         ]
       },
-      "groupId": "androidx.security",
+      "preferred": "1.0.0-alpha02",
       "jetpackVersions": {
-        "alpha": "1.0.0-alpha02",
-        "latestUpdate": "2019-05-23"
-      },
-      "preferred": "1.0.0-alpha02"
+        "latestUpdate": "2019-05-23",
+        "alpha": "1.0.0-alpha02"
+      }
     },
     "sharetarget": {
+      "groupId": "androidx.sharetarget",
       "artifacts": {
         "sharetarget": [
           "1.0.0-alpha01",
           "1.0.0-alpha02",
           "1.0.0-beta01",
-          "1.0.0-beta02"
+          "1.0.0-beta02",
+          "1.0.0-rc01"
         ]
       },
-      "groupId": "androidx.sharetarget",
+      "preferred": "1.0.0-rc02",
       "jetpackVersions": {
-        "beta": "1.0.0-beta02",
-        "latestUpdate": "2019-11-07"
-      },
-      "preferred": "1.0.0-beta02"
+        "latestUpdate": "2019-12-04",
+        "rc": "1.0.0-rc02"
+      }
     },
     "slice": {
+      "groupId": "androidx.slice",
       "artifacts": {
         "slice-core": [
           "1.0.0-alpha1",
@@ -2893,15 +2955,15 @@
           "1.0.0-alpha07"
         ]
       },
-      "groupId": "androidx.slice",
+      "preferred": "1.0.0",
       "jetpackVersions": {
-        "alpha": "1.1.0-alpha01",
         "latestUpdate": "2019-05-07",
-        "stable": "1.0.0"
-      },
-      "preferred": "1.0.0"
+        "stable": "1.0.0",
+        "alpha": "1.1.0-alpha01"
+      }
     },
     "slidingpanelayout": {
+      "groupId": "androidx.slidingpanelayout",
       "artifacts": {
         "slidingpanelayout": [
           "1.0.0-alpha1",
@@ -2912,14 +2974,14 @@
           "1.0.0"
         ]
       },
-      "groupId": "androidx.slidingpanelayout",
+      "preferred": "1.0.0",
       "jetpackVersions": {
         "latestUpdate": "2018-09-21",
         "stable": "1.0.0"
-      },
-      "preferred": "1.0.0"
+      }
     },
     "sqlite": {
+      "groupId": "androidx.sqlite",
       "artifacts": {
         "sqlite-framework": [
           "2.0.0-alpha1",
@@ -2927,7 +2989,8 @@
           "2.0.0-rc01",
           "2.0.0",
           "2.0.1",
-          "2.1.0-alpha01"
+          "2.1.0-alpha01",
+          "2.1.0-beta01"
         ],
         "sqlite": [
           "2.0.0-alpha1",
@@ -2935,7 +2998,8 @@
           "2.0.0-rc01",
           "2.0.0",
           "2.0.1",
-          "2.1.0-alpha01"
+          "2.1.0-alpha01",
+          "2.1.0-beta01"
         ],
         "sqlite-ktx": [
           "2.0.0-alpha1",
@@ -2943,18 +3007,19 @@
           "2.0.0-rc01",
           "2.0.0",
           "2.0.1",
-          "2.1.0-alpha01"
+          "2.1.0-alpha01",
+          "2.1.0-beta01"
         ]
       },
-      "groupId": "androidx.sqlite",
+      "preferred": "2.0.1",
       "jetpackVersions": {
-        "alpha": "2.1.0-alpha01",
-        "latestUpdate": "2019-11-07",
-        "stable": "2.0.1"
-      },
-      "preferred": "2.0.1"
+        "latestUpdate": "2019-12-04",
+        "stable": "2.0.1",
+        "beta": "2.1.0-beta01"
+      }
     },
     "swiperefreshlayout": {
+      "groupId": "androidx.swiperefreshlayout",
       "artifacts": {
         "swiperefreshlayout": [
           "1.0.0-alpha1",
@@ -2968,15 +3033,15 @@
           "1.1.0-alpha03"
         ]
       },
-      "groupId": "androidx.swiperefreshlayout",
+      "preferred": "1.0.0",
       "jetpackVersions": {
-        "alpha": "1.1.0-alpha03",
         "latestUpdate": "2019-10-09",
-        "stable": "1.0.0"
-      },
-      "preferred": "1.0.0"
+        "stable": "1.0.0",
+        "alpha": "1.1.0-alpha03"
+      }
     },
     "test": {
+      "groupId": "androidx.test",
       "artifacts": {
         "monitor": [
           "1.1.0-alpha1",
@@ -3103,29 +3168,29 @@
           "1.3.0-alpha03"
         ]
       },
-      "groupId": "androidx.test",
+      "preferred": "1.2.0",
       "jetpackVersions": {
-        "alpha": "1.2.1-alpha02",
         "latestUpdate": "2019-06-17",
-        "stable": "1.2.0"
-      },
-      "preferred": "1.2.0"
+        "stable": "1.2.0",
+        "alpha": "1.2.1-alpha02"
+      }
     },
     "textclassifier": {
+      "groupId": "androidx.textclassifier",
       "artifacts": {
         "textclassifier": [
           "1.0.0-alpha01",
           "1.0.0-alpha02"
         ]
       },
-      "groupId": "androidx.textclassifier",
+      "preferred": "1.0.0-alpha02",
       "jetpackVersions": {
-        "alpha": "1.0.0-alpha02",
-        "latestUpdate": "2019-02-07"
-      },
-      "preferred": "1.0.0-alpha02"
+        "latestUpdate": "2019-02-07",
+        "alpha": "1.0.0-alpha02"
+      }
     },
     "transition": {
+      "groupId": "androidx.transition",
       "artifacts": {
         "transition": [
           "1.0.0-alpha1",
@@ -3146,18 +3211,19 @@
           "1.2.0-rc01",
           "1.2.0",
           "1.3.0-beta01",
-          "1.3.0-rc01"
+          "1.3.0-rc01",
+          "1.3.0-rc02"
         ]
       },
-      "groupId": "androidx.transition",
+      "preferred": "1.2.0",
       "jetpackVersions": {
-        "latestUpdate": "2019-10-23",
-        "rc": "1.3.0-rc01",
-        "stable": "1.2.0"
-      },
-      "preferred": "1.2.0"
+        "latestUpdate": "2019-12-04",
+        "stable": "1.2.0",
+        "rc": "1.3.0-rc02"
+      }
     },
     "tvprovider": {
+      "groupId": "androidx.tvprovider",
       "artifacts": {
         "tvprovider": [
           "1.0.0-alpha1",
@@ -3168,14 +3234,14 @@
           "1.0.0"
         ]
       },
-      "groupId": "androidx.tvprovider",
+      "preferred": "1.0.0",
       "jetpackVersions": {
         "latestUpdate": "2018-09-21",
         "stable": "1.0.0"
-      },
-      "preferred": "1.0.0"
+      }
     },
     "vectordrawable": {
+      "groupId": "androidx.vectordrawable",
       "artifacts": {
         "vectordrawable-animated": [
           "1.0.0-alpha1",
@@ -3205,14 +3271,14 @@
           "1.1.0"
         ]
       },
-      "groupId": "androidx.vectordrawable",
+      "preferred": "1.1.0",
       "jetpackVersions": {
         "latestUpdate": "2019-09-05",
         "stable": "1.1.0"
-      },
-      "preferred": "1.1.0"
+      }
     },
     "versionedparcelable": {
+      "groupId": "androidx.versionedparcelable",
       "artifacts": {
         "versionedparcelable": [
           "1.0.0-alpha3",
@@ -3227,14 +3293,14 @@
           "1.1.0"
         ]
       },
-      "groupId": "androidx.versionedparcelable",
+      "preferred": "1.1.0",
       "jetpackVersions": {
         "latestUpdate": "2019-08-07",
         "stable": "1.1.0"
-      },
-      "preferred": "1.1.0"
+      }
     },
     "viewpager": {
+      "groupId": "androidx.viewpager",
       "artifacts": {
         "viewpager": [
           "1.0.0-alpha1",
@@ -3245,14 +3311,14 @@
           "1.0.0"
         ]
       },
-      "groupId": "androidx.viewpager",
+      "preferred": "1.0.0",
       "jetpackVersions": {
         "latestUpdate": "2018-09-21",
         "stable": "1.0.0"
-      },
-      "preferred": "1.0.0"
+      }
     },
     "viewpager2": {
+      "groupId": "androidx.viewpager2",
       "artifacts": {
         "viewpager2": [
           "1.0.0-alpha01",
@@ -3270,14 +3336,14 @@
           "1.0.0"
         ]
       },
-      "groupId": "androidx.viewpager2",
+      "preferred": "1.0.0",
       "jetpackVersions": {
         "latestUpdate": "2019-11-20",
         "stable": "1.0.0"
-      },
-      "preferred": "1.0.0"
+      }
     },
     "wear": {
+      "groupId": "androidx.wear",
       "artifacts": {
         "wear": [
           "1.0.0-alpha1",
@@ -3288,14 +3354,14 @@
           "1.0.0"
         ]
       },
-      "groupId": "androidx.wear",
+      "preferred": "1.0.0",
       "jetpackVersions": {
         "latestUpdate": "2018-09-21",
         "stable": "1.0.0"
-      },
-      "preferred": "1.0.0"
+      }
     },
     "webkit": {
+      "groupId": "androidx.webkit",
       "artifacts": {
         "webkit": [
           "1.0.0-alpha1",
@@ -3311,14 +3377,14 @@
           "1.1.0"
         ]
       },
-      "groupId": "androidx.webkit",
+      "preferred": "1.1.0",
       "jetpackVersions": {
         "latestUpdate": "2019-11-07",
         "stable": "1.1.0"
-      },
-      "preferred": "1.1.0"
+      }
     },
     "work": {
+      "groupId": "androidx.work",
       "artifacts": {
         "work-rxjava2": [
           "2.0.0-rc01",
@@ -3415,15 +3481,15 @@
           "2.3.0-beta01"
         ]
       },
-      "groupId": "androidx.work",
+      "preferred": "2.2.0",
       "jetpackVersions": {
-        "beta": "2.3.0-beta01",
         "latestUpdate": "2019-11-20",
-        "stable": "2.2.0"
-      },
-      "preferred": "2.2.0"
+        "stable": "2.2.0",
+        "beta": "2.3.0-beta01"
+      }
     },
     "legacy-google-material": {
+      "groupId": "com.google.android.material",
       "artifacts": {
         "material": [
           "1.0.0-alpha1",
@@ -3448,67 +3514,78 @@
           "1.2.0-alpha02"
         ]
       },
-      "groupId": "com.google.android.material",
       "jetpackVersions": {}
     },
     "compose-dev": {
+      "groupId": "androidx.ui",
       "artifacts": {
         "ui-core": [
           "0.1.0-dev01",
-          "0.1.0-dev02"
+          "0.1.0-dev02",
+          "0.1.0-dev03"
         ],
         "ui-layout": [
           "0.1.0-dev01",
-          "0.1.0-dev02"
+          "0.1.0-dev02",
+          "0.1.0-dev03"
         ],
         "ui-framework": [
           "0.1.0-dev01",
-          "0.1.0-dev02"
+          "0.1.0-dev02",
+          "0.1.0-dev03"
         ],
         "ui-animation": [
           "0.1.0-dev01",
-          "0.1.0-dev02"
+          "0.1.0-dev02",
+          "0.1.0-dev03"
         ],
         "ui-animation-core": [
           "0.1.0-dev01",
-          "0.1.0-dev02"
+          "0.1.0-dev02",
+          "0.1.0-dev03"
         ],
         "ui-android-text": [
           "0.1.0-dev01",
-          "0.1.0-dev02"
+          "0.1.0-dev02",
+          "0.1.0-dev03"
         ],
         "ui-material": [
           "0.1.0-dev01",
-          "0.1.0-dev02"
+          "0.1.0-dev02",
+          "0.1.0-dev03"
         ],
         "ui-tooling": [
           "0.1.0-dev01",
-          "0.1.0-dev02"
+          "0.1.0-dev02",
+          "0.1.0-dev03"
         ],
         "ui-platform": [
           "0.1.0-dev01",
-          "0.1.0-dev02"
+          "0.1.0-dev02",
+          "0.1.0-dev03"
         ],
         "ui-vector": [
           "0.1.0-dev01",
-          "0.1.0-dev02"
+          "0.1.0-dev02",
+          "0.1.0-dev03"
         ],
         "ui-foundation": [
           "0.1.0-dev01",
-          "0.1.0-dev02"
+          "0.1.0-dev02",
+          "0.1.0-dev03"
         ],
         "ui-text": [
           "0.1.0-dev01",
-          "0.1.0-dev02"
+          "0.1.0-dev02",
+          "0.1.0-dev03"
         ],
         "ui-test": [
           "0.1.0-dev01",
-          "0.1.0-dev02"
+          "0.1.0-dev02",
+          "0.1.0-dev03"
         ]
       },
-      "groupId": "androidx.ui",
       "jetpackVersions": {}
     }
-  },
-  "lastUpdate": "2019-11-20"
+  }
 }

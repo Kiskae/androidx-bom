@@ -19,5 +19,5 @@ jobs:
       with:
         token: ${{ secrets.GITHUB_TOKEN }}
         title: Update Manifest with Official Jetpack Versions
-        branch: automated-update
-        branch-suffix: none
+        branch: jetpack
+        branch-suffix: timestamp

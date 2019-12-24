@@ -793,7 +793,8 @@
           "4.0.0-alpha03",
           "4.0.0-alpha04",
           "4.0.0-alpha05",
-          "4.0.0-alpha06"
+          "4.0.0-alpha06",
+          "4.0.0-alpha07"
         ],
         "databinding-adapters": [
           "3.2.0-alpha12",
@@ -905,7 +906,8 @@
           "4.0.0-alpha03",
           "4.0.0-alpha04",
           "4.0.0-alpha05",
-          "4.0.0-alpha06"
+          "4.0.0-alpha06",
+          "4.0.0-alpha07"
         ],
         "databinding-compiler-common": [
           "3.2.0-alpha12",
@@ -1017,7 +1019,8 @@
           "4.0.0-alpha03",
           "4.0.0-alpha04",
           "4.0.0-alpha05",
-          "4.0.0-alpha06"
+          "4.0.0-alpha06",
+          "4.0.0-alpha07"
         ],
         "databinding-compiler": [
           "3.2.0-alpha12",
@@ -1129,7 +1132,8 @@
           "4.0.0-alpha03",
           "4.0.0-alpha04",
           "4.0.0-alpha05",
-          "4.0.0-alpha06"
+          "4.0.0-alpha06",
+          "4.0.0-alpha07"
         ],
         "databinding-common": [
           "3.2.0-alpha12",
@@ -1241,7 +1245,8 @@
           "4.0.0-alpha03",
           "4.0.0-alpha04",
           "4.0.0-alpha05",
-          "4.0.0-alpha06"
+          "4.0.0-alpha06",
+          "4.0.0-alpha07"
         ],
         "viewbinding": [
           "3.6.0-alpha01",
@@ -1267,7 +1272,8 @@
           "4.0.0-alpha03",
           "4.0.0-alpha04",
           "4.0.0-alpha05",
-          "4.0.0-alpha06"
+          "4.0.0-alpha06",
+          "4.0.0-alpha07"
         ]
       },
       "preferred": "3.5.0",

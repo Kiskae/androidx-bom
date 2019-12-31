@@ -5,10 +5,7 @@ import org.gradle.api.file.DirectoryProperty
 import org.gradle.api.file.RegularFile
 import org.gradle.api.provider.MapProperty
 import org.gradle.api.provider.Provider
-import org.gradle.api.tasks.Input
-import org.gradle.api.tasks.Internal
-import org.gradle.api.tasks.OutputDirectory
-import org.gradle.api.tasks.TaskAction
+import org.gradle.api.tasks.*
 import org.gradle.workers.WorkerExecutor
 import java.net.URL
 import java.nio.file.Files
@@ -23,8 +20,7 @@ abstract class JSoupTask @Inject constructor(
     @get:Input
     abstract var parser: Class<out JsoupSpec<*>>
 
-    @get:Internal
-    //FIXME: Making this @Input results in a circular dependency on self.
+    @get:OutputFiles
     abstract val targets: MapProperty<URL, RegularFile>
 
     @get:Internal

@@ -1,5 +1,5 @@
 {
-  "lastUpdate": "2019-12-18",
+  "lastUpdate": "2020-01-08",
   "groups": {
     "activity": {
       "groupId": "androidx.activity",
@@ -313,13 +313,15 @@
           "1.2.0-alpha09",
           "1.2.0-beta01",
           "1.2.0-rc01",
-          "1.2.0"
+          "1.2.0",
+          "1.3.0-alpha01"
         ]
       },
       "preferred": "1.2.0",
       "jetpackVersions": {
-        "latestUpdate": "2019-12-18",
-        "stable": "1.2.0"
+        "latestUpdate": "2020-01-08",
+        "stable": "1.2.0",
+        "alpha": "1.3.0-alpha01"
       }
     },
     "camera": {
@@ -1474,7 +1476,8 @@
           "1.2.0-rc01",
           "1.2.0-rc02",
           "1.2.0-rc03",
-          "1.2.0-rc04"
+          "1.2.0-rc04",
+          "1.2.0-rc05"
         ],
         "fragment": [
           "1.0.0-alpha1",
@@ -1507,7 +1510,8 @@
           "1.2.0-rc01",
           "1.2.0-rc02",
           "1.2.0-rc03",
-          "1.2.0-rc04"
+          "1.2.0-rc04",
+          "1.2.0-rc05"
         ],
         "fragment-testing": [
           "1.1.0-alpha01",
@@ -1534,14 +1538,15 @@
           "1.2.0-rc01",
           "1.2.0-rc02",
           "1.2.0-rc03",
-          "1.2.0-rc04"
+          "1.2.0-rc04",
+          "1.2.0-rc05"
         ]
       },
       "preferred": "1.1.0",
       "jetpackVersions": {
-        "latestUpdate": "2019-12-18",
+        "latestUpdate": "2020-01-08",
         "stable": "1.1.0",
-        "rc": "1.2.0-rc04"
+        "rc": "1.2.0-rc05"
       }
     },
     "gridlayout": {
@@ -3067,7 +3072,8 @@
           "2.0.0",
           "2.0.1",
           "2.1.0-alpha01",
-          "2.1.0-beta01"
+          "2.1.0-beta01",
+          "2.1.0-rc01"
         ],
         "sqlite": [
           "2.0.0-alpha1",
@@ -3076,7 +3082,8 @@
           "2.0.0",
           "2.0.1",
           "2.1.0-alpha01",
-          "2.1.0-beta01"
+          "2.1.0-beta01",
+          "2.1.0-rc01"
         ],
         "sqlite-ktx": [
           "2.0.0-alpha1",
@@ -3085,14 +3092,15 @@
           "2.0.0",
           "2.0.1",
           "2.1.0-alpha01",
-          "2.1.0-beta01"
+          "2.1.0-beta01",
+          "2.1.0-rc01"
         ]
       },
       "preferred": "2.0.1",
       "jetpackVersions": {
-        "latestUpdate": "2019-12-04",
+        "latestUpdate": "2020-01-08",
         "stable": "2.0.1",
-        "beta": "2.1.0-beta01"
+        "rc": "2.1.0-rc01"
       }
     },
     "swiperefreshlayout": {
@@ -3485,7 +3493,8 @@
           "2.3.0-alpha02",
           "2.3.0-alpha03",
           "2.3.0-beta01",
-          "2.3.0-beta02"
+          "2.3.0-beta02",
+          "2.3.0-rc01"
         ],
         "work-runtime": [
           "2.0.0-rc01",
@@ -3507,7 +3516,8 @@
           "2.3.0-alpha02",
           "2.3.0-alpha03",
           "2.3.0-beta01",
-          "2.3.0-beta02"
+          "2.3.0-beta02",
+          "2.3.0-rc01"
         ],
         "work-testing": [
           "2.0.0-rc01",
@@ -3529,7 +3539,8 @@
           "2.3.0-alpha02",
           "2.3.0-alpha03",
           "2.3.0-beta01",
-          "2.3.0-beta02"
+          "2.3.0-beta02",
+          "2.3.0-rc01"
         ],
         "work-runtime-ktx": [
           "2.0.0-rc01",
@@ -3551,7 +3562,8 @@
           "2.3.0-alpha02",
           "2.3.0-alpha03",
           "2.3.0-beta01",
-          "2.3.0-beta02"
+          "2.3.0-beta02",
+          "2.3.0-rc01"
         ],
         "work-gcm": [
           "2.2.0-beta01",
@@ -3562,14 +3574,15 @@
           "2.3.0-alpha02",
           "2.3.0-alpha03",
           "2.3.0-beta01",
-          "2.3.0-beta02"
+          "2.3.0-beta02",
+          "2.3.0-rc01"
         ]
       },
       "preferred": "2.2.0",
       "jetpackVersions": {
-        "latestUpdate": "2019-12-18",
+        "latestUpdate": "2020-01-08",
         "stable": "2.2.0",
-        "beta": "2.3.0-beta02"
+        "rc": "2.3.0-rc01"
       }
     },
     "legacy-google-material": {

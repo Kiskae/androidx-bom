@@ -2120,11 +2120,10 @@
           "2.2.0"
         ]
       },
-      "preferred": "2.1.0",
+      "preferred": "2.2.0",
       "jetpackVersions": {
         "latestUpdate": "2020-01-22",
-        "stable": "2.1.0",
-        "rc": "2.2.0-rc03"
+        "stable": "2.2.0"
       }
     },
     "loader": {

@@ -1,5 +1,5 @@
 {
-  "lastUpdate": "2020-02-20",
+  "lastUpdate": "2020-02-26",
   "groups": {
     "activity": {
       "groupId": "androidx.activity",
@@ -343,7 +343,8 @@
           "1.0.0-alpha07",
           "1.0.0-alpha08",
           "1.0.0-alpha09",
-          "1.0.0-alpha10"
+          "1.0.0-alpha10",
+          "1.0.0-beta01"
         ],
         "camera-camera2": [
           "1.0.0-alpha01",
@@ -355,7 +356,8 @@
           "1.0.0-alpha07",
           "1.0.0-alpha08",
           "1.0.0-alpha09",
-          "1.0.0-alpha10"
+          "1.0.0-alpha10",
+          "1.0.0-beta01"
         ],
         "camera-view": [
           "1.0.0-alpha01",
@@ -364,7 +366,8 @@
           "1.0.0-alpha04",
           "1.0.0-alpha05",
           "1.0.0-alpha06",
-          "1.0.0-alpha07"
+          "1.0.0-alpha07",
+          "1.0.0-alpha08"
         ],
         "camera-extensions": [
           "1.0.0-alpha01",
@@ -373,19 +376,21 @@
           "1.0.0-alpha04",
           "1.0.0-alpha05",
           "1.0.0-alpha06",
-          "1.0.0-alpha07"
+          "1.0.0-alpha07",
+          "1.0.0-alpha08"
         ],
         "camera-lifecycle": [
           "1.0.0-alpha01",
           "1.0.0-alpha02",
           "1.0.0-alpha03",
-          "1.0.0-alpha10"
+          "1.0.0-alpha10",
+          "1.0.0-beta01"
         ]
       },
-      "preferred": "1.0.0-alpha10",
+      "preferred": "1.0.0-beta01",
       "jetpackVersions": {
-        "latestUpdate": "2020-02-10",
-        "alpha": "1.0.0-alpha10"
+        "latestUpdate": "2020-02-26",
+        "beta": "1.0.0-beta01"
       }
     },
     "car": {
@@ -821,7 +826,8 @@
           "4.0.0-alpha06",
           "4.0.0-alpha07",
           "4.0.0-alpha08",
-          "4.0.0-alpha09"
+          "4.0.0-alpha09",
+          "4.0.0-beta01"
         ],
         "databinding-adapters": [
           "3.2.0-alpha12",
@@ -939,7 +945,8 @@
           "4.0.0-alpha06",
           "4.0.0-alpha07",
           "4.0.0-alpha08",
-          "4.0.0-alpha09"
+          "4.0.0-alpha09",
+          "4.0.0-beta01"
         ],
         "databinding-compiler-common": [
           "3.2.0-alpha12",
@@ -1057,7 +1064,8 @@
           "4.0.0-alpha06",
           "4.0.0-alpha07",
           "4.0.0-alpha08",
-          "4.0.0-alpha09"
+          "4.0.0-alpha09",
+          "4.0.0-beta01"
         ],
         "databinding-compiler": [
           "3.2.0-alpha12",
@@ -1175,7 +1183,8 @@
           "4.0.0-alpha06",
           "4.0.0-alpha07",
           "4.0.0-alpha08",
-          "4.0.0-alpha09"
+          "4.0.0-alpha09",
+          "4.0.0-beta01"
         ],
         "databinding-common": [
           "3.2.0-alpha12",
@@ -1293,7 +1302,8 @@
           "4.0.0-alpha06",
           "4.0.0-alpha07",
           "4.0.0-alpha08",
-          "4.0.0-alpha09"
+          "4.0.0-alpha09",
+          "4.0.0-beta01"
         ],
         "viewbinding": [
           "3.6.0-alpha01",
@@ -1325,7 +1335,8 @@
           "4.0.0-alpha06",
           "4.0.0-alpha07",
           "4.0.0-alpha08",
-          "4.0.0-alpha09"
+          "4.0.0-alpha09",
+          "4.0.0-beta01"
         ]
       },
       "preferred": "3.5.0",

@@ -37,16 +37,20 @@ data class JetpackVersions(
     }
 
     abstract class Spec : JsoupSpec<JetpackVersions>() {
+        fun tryToSemver(text: String): Semver? = runCatching {
+            Semver(text)
+        }.getOrNull()
+
         override fun Document.parse(): JetpackVersions {
             val artifacts = select(VERSIONS_ROW_SELECTOR).associate { row ->
                 val columns = row.select("td").eachText()
 
                 columns[0].trim() to Artifact(
                         LocalDate.parse(columns[1], dateFormatter),
-                        columns[2].trim().takeUnless { it == "-" }?.let(::Semver),
-                        columns[3].trim().takeUnless { it == "-" }?.let(::Semver),
-                        columns[4].trim().takeUnless { it == "-" }?.let(::Semver),
-                        columns[5].trim().takeUnless { it == "-" }?.let(::Semver)
+                        columns[2].trim().takeUnless { it == "-" }?.let(::tryToSemver),
+                        columns[3].trim().takeUnless { it == "-" }?.let(::tryToSemver),
+                        columns[4].trim().takeUnless { it == "-" }?.let(::tryToSemver),
+                        columns[5].trim().takeUnless { it == "-" }?.let(::tryToSemver)
                 )
             }
 

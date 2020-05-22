@@ -33,24 +33,26 @@ data class JetpackVersions(
 
         // Raw HTML differs from chrome devtools
         private const val VERSIONS_ROW_SELECTOR = ".devsite-article-body tr:not(:first-child)"
-        private const val LAST_UPDATE_SELECTOR = ".devsite-article-body table + p"
+        private const val LAST_UPDATE_SELECTOR = ".devsite-article-body > p:last-of-type"
     }
 
     abstract class Spec : JsoupSpec<JetpackVersions>() {
-        fun tryToSemver(text: String): Semver? = runCatching {
-            Semver(text)
-        }.getOrNull()
+        fun String.toSemver(): Semver? = trim().takeUnless { it == "-" }?.let {
+            runCatching { Semver(it) }.getOrNull()
+        }
+
+        fun String.sanitizeGroup(): String = trim().takeWhile { !it.isWhitespace() }
 
         override fun Document.parse(): JetpackVersions {
             val artifacts = select(VERSIONS_ROW_SELECTOR).associate { row ->
                 val columns = row.select("td").eachText()
 
-                columns[0].trim() to Artifact(
+                columns[0].sanitizeGroup() to Artifact(
                         LocalDate.parse(columns[1], dateFormatter),
-                        columns[2].trim().takeUnless { it == "-" }?.let(::tryToSemver),
-                        columns[3].trim().takeUnless { it == "-" }?.let(::tryToSemver),
-                        columns[4].trim().takeUnless { it == "-" }?.let(::tryToSemver),
-                        columns[5].trim().takeUnless { it == "-" }?.let(::tryToSemver)
+                        columns[2].toSemver(),
+                        columns[3].toSemver(),
+                        columns[4].toSemver(),
+                        columns[5].toSemver()
                 )
             }
 

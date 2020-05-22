@@ -62,9 +62,7 @@ abstract class ManifestTask : DefaultTask() {
         cachedManifest = manifest
 
         Okio.buffer(Okio.sink(manifestOutput.get().asFile)).use {
-            moshi.adapter(VersionManifest::class.java).toJson(JsonWriter.of(it).apply {
-                indent = "  "
-            }, manifest)
+            moshi.adapter(VersionManifest::class.java).indent("  ").toJson(it, manifest)
         }
     }
 

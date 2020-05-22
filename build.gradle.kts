@@ -22,14 +22,13 @@ plugins {
 val versionManifest = layout.projectDirectory.file("latest.json")
 
 // Keys not listed in https://developer.android.com/jetpack/androidx/versions/ (yet)
-val extraKeys = listOf("legacy-google-material", "compose-dev")
+val extraKeys = listOf("legacy-google-material")
 
 // These artifacts have entirely different groups in practise.
 val groupMapping = mapOf(
         "arch" to "androidx.arch.core",
         "jetifier" to "com.android.tools.build.jetifier",
-        "legacy-google-material" to "com.google.android.material",
-        "compose-dev" to "androidx.ui"
+        "legacy-google-material" to "com.google.android.material"
 )
 
 val VERSION_FORMAT = DateTimeFormatter.ofPattern("uuuu.MM.dd")

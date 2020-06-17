@@ -28,7 +28,8 @@ val extraKeys = listOf("legacy-google-material")
 val groupMapping = mapOf(
         "arch" to "androidx.arch.core",
         "jetifier" to "com.android.tools.build.jetifier",
-        "legacy-google-material" to "com.google.android.material"
+        "legacy-google-material" to "com.google.android.material",
+        "Dagger" to "androidx.hilt" // Temporary fix
 )
 
 val VERSION_FORMAT = DateTimeFormatter.ofPattern("uuuu.MM.dd")

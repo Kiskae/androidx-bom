@@ -980,7 +980,8 @@
           "4.1.0-beta01",
           "4.1.0-beta02",
           "4.2.0-alpha01",
-          "4.2.0-alpha02"
+          "4.2.0-alpha02",
+          "4.2.0-alpha03"
         ],
         "databinding-common": [
           "3.2.0-alpha12",
@@ -1122,7 +1123,8 @@
           "4.1.0-beta01",
           "4.1.0-beta02",
           "4.2.0-alpha01",
-          "4.2.0-alpha02"
+          "4.2.0-alpha02",
+          "4.2.0-alpha03"
         ],
         "databinding-compiler": [
           "3.2.0-alpha12",
@@ -1264,7 +1266,8 @@
           "4.1.0-beta01",
           "4.1.0-beta02",
           "4.2.0-alpha01",
-          "4.2.0-alpha02"
+          "4.2.0-alpha02",
+          "4.2.0-alpha03"
         ],
         "databinding-compiler-common": [
           "3.2.0-alpha12",
@@ -1406,7 +1409,8 @@
           "4.1.0-beta01",
           "4.1.0-beta02",
           "4.2.0-alpha01",
-          "4.2.0-alpha02"
+          "4.2.0-alpha02",
+          "4.2.0-alpha03"
         ],
         "databinding-runtime": [
           "3.2.0-alpha12",
@@ -1548,7 +1552,8 @@
           "4.1.0-beta01",
           "4.1.0-beta02",
           "4.2.0-alpha01",
-          "4.2.0-alpha02"
+          "4.2.0-alpha02",
+          "4.2.0-alpha03"
         ],
         "library": [
           "3.2.0-alpha11"
@@ -1607,7 +1612,8 @@
           "4.1.0-beta01",
           "4.1.0-beta02",
           "4.2.0-alpha01",
-          "4.2.0-alpha02"
+          "4.2.0-alpha02",
+          "4.2.0-alpha03"
         ]
       },
       "preferred": "3.5.0",

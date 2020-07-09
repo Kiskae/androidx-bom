@@ -1,5 +1,5 @@
 {
-  "lastUpdate": "2020-06-24",
+  "lastUpdate": "2020-07-07",
   "groups": {
     "activity": {
       "groupId": "androidx.activity",
@@ -648,9 +648,9 @@
       },
       "preferred": "1.1.3",
       "jetpackVersions": {
-        "latestUpdate": "2020-06-12",
+        "latestUpdate": "2020-07-07",
         "stable": "1.1.3",
-        "beta": "2.0.0-beta7"
+        "beta": "2.0.0-beta8"
       }
     },
     "contentpager": {
@@ -984,7 +984,8 @@
           "4.1.0-beta03",
           "4.2.0-alpha01",
           "4.2.0-alpha02",
-          "4.2.0-alpha03"
+          "4.2.0-alpha03",
+          "4.2.0-alpha04"
         ],
         "databinding-common": [
           "3.2.0-alpha12",
@@ -1128,7 +1129,8 @@
           "4.1.0-beta03",
           "4.2.0-alpha01",
           "4.2.0-alpha02",
-          "4.2.0-alpha03"
+          "4.2.0-alpha03",
+          "4.2.0-alpha04"
         ],
         "databinding-compiler": [
           "3.2.0-alpha12",
@@ -1272,7 +1274,8 @@
           "4.1.0-beta03",
           "4.2.0-alpha01",
           "4.2.0-alpha02",
-          "4.2.0-alpha03"
+          "4.2.0-alpha03",
+          "4.2.0-alpha04"
         ],
         "databinding-compiler-common": [
           "3.2.0-alpha12",
@@ -1416,7 +1419,8 @@
           "4.1.0-beta03",
           "4.2.0-alpha01",
           "4.2.0-alpha02",
-          "4.2.0-alpha03"
+          "4.2.0-alpha03",
+          "4.2.0-alpha04"
         ],
         "databinding-runtime": [
           "3.2.0-alpha12",
@@ -1560,7 +1564,8 @@
           "4.1.0-beta03",
           "4.2.0-alpha01",
           "4.2.0-alpha02",
-          "4.2.0-alpha03"
+          "4.2.0-alpha03",
+          "4.2.0-alpha04"
         ],
         "library": [
           "3.2.0-alpha11"
@@ -1621,7 +1626,8 @@
           "4.1.0-beta03",
           "4.2.0-alpha01",
           "4.2.0-alpha02",
-          "4.2.0-alpha03"
+          "4.2.0-alpha03",
+          "4.2.0-alpha04"
         ]
       },
       "preferred": "3.5.0",

@@ -77,8 +77,9 @@ tasks {
             artifacts.associate {
                 val group = groupMapping.getOrDefault(it, "androidx.$it")
                         .replace('.', '/')
+                        .replace('-', '/')
 
-                val groupIndex = URL("https://dl.google.com/dl/android/maven2/$group/group-index.xml")
+                val groupIndex = URL("https://dl.google.com/android/maven2/$group/group-index.xml")
 
                 groupIndex to outputDir.file("$it.json")
             }.mapValues {

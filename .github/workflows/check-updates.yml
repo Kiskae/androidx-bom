@@ -13,7 +13,7 @@ jobs:
     - name: Update repository manifest
       uses: OrangeLabs-moe/gradle-actions@v5.0-openjdk-13
       with:
-        args: updateManifest
+        args: updateManifest --stacktrace
     - name: Create Pull Request
       uses: peter-evans/create-pull-request@v1
       with:

@@ -3545,9 +3545,9 @@
       },
       "preferred": "2.1.2",
       "jetpackVersions": {
-        "latestUpdate": "2020-08-05",
+        "latestUpdate": "2020-07-22",
         "stable": "2.1.2",
-        "alpha": "3.0.0-alpha04"
+        "alpha": "3.0.0-alpha03"
       }
     },
     "palette": {

@@ -1,5 +1,5 @@
 {
-  "lastUpdate": "2020-08-11",
+  "lastUpdate": "2020-08-12",
   "groups": {
     "activity": {
       "groupId": "androidx.activity",
@@ -2161,20 +2161,20 @@
         "alpha": "1.3.0-alpha07"
       }
     },
-    "gaming": {
-      "groupId": "androidx.gaming",
+    "games": {
+      "groupId": "androidx.games",
       "artifacts": {
-        "gaming-frame-pacing": [
-          "1.5.0-alpha01"
+        "games-frame-pacing": [
+          "1.5.0-alpha02"
         ],
-        "gaming-performance-tuner": [
-          "1.0.0-alpha01"
+        "games-performance-tuner": [
+          "1.0.0-alpha02"
         ]
       },
-      "preferred": "1.0.0-alpha01",
+      "preferred": "1.0.0-alpha02",
       "jetpackVersions": {
-        "latestUpdate": "2020-06-10",
-        "alpha": "1.0.0-alpha01"
+        "latestUpdate": "2020-08-12",
+        "alpha": "1.0.0-alpha02"
       }
     },
     "gridlayout": {

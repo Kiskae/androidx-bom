@@ -1,5 +1,5 @@
 {
-  "lastUpdate": "2020-08-05",
+  "lastUpdate": "2020-08-11",
   "groups": {
     "activity": {
       "groupId": "androidx.activity",
@@ -2347,9 +2347,9 @@
       },
       "preferred": "1.0.0",
       "jetpackVersions": {
-        "latestUpdate": "2019-12-18",
+        "latestUpdate": "2020-08-11",
         "stable": "1.0.0",
-        "alpha": "1.1.0-alpha03"
+        "alpha": "1.1.0-alpha04"
       }
     },
     "legacy": {

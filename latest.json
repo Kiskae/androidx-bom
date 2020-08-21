@@ -5254,7 +5254,8 @@
       "groupId": "com.google.android.material",
       "artifacts": {
         "compose-theme-adapter": [
-          "0.1.0-dev16"
+          "0.1.0-dev16",
+          "0.1.0-dev17"
         ],
         "material": [
           "1.0.0-alpha1",

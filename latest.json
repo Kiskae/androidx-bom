@@ -1,5 +1,5 @@
 {
-  "lastUpdate": "2020-08-25",
+  "lastUpdate": "2020-08-26",
   "groups": {
     "activity": {
       "groupId": "androidx.activity",
@@ -571,7 +571,8 @@
           "0.1.0-dev14",
           "0.1.0-dev15",
           "0.1.0-dev16",
-          "0.1.0-dev17"
+          "0.1.0-dev17",
+          "1.0.0-alpha01"
         ],
         "compose-runtime": [
           "0.1.0-dev01",
@@ -590,8 +591,10 @@
           "0.1.0-dev14"
         ]
       },
+      "preferred": "1.0.0-alpha01",
       "jetpackVersions": {
-        "latestUpdate": "2020-08-19"
+        "latestUpdate": "2020-08-26",
+        "alpha": "1.0.0-alpha01"
       }
     },
     "compose-animation": {
@@ -600,16 +603,20 @@
         "animation": [
           "0.1.0-dev15",
           "0.1.0-dev16",
-          "0.1.0-dev17"
+          "0.1.0-dev17",
+          "1.0.0-alpha01"
         ],
         "animation-core": [
           "0.1.0-dev15",
           "0.1.0-dev16",
-          "0.1.0-dev17"
+          "0.1.0-dev17",
+          "1.0.0-alpha01"
         ]
       },
+      "preferred": "1.0.0-alpha01",
       "jetpackVersions": {
-        "latestUpdate": "2020-08-19"
+        "latestUpdate": "2020-08-26",
+        "alpha": "1.0.0-alpha01"
       }
     },
     "compose-foundation": {
@@ -618,21 +625,26 @@
         "foundation": [
           "0.1.0-dev15",
           "0.1.0-dev16",
-          "0.1.0-dev17"
+          "0.1.0-dev17",
+          "1.0.0-alpha01"
         ],
         "foundation-layout": [
           "0.1.0-dev15",
           "0.1.0-dev16",
-          "0.1.0-dev17"
+          "0.1.0-dev17",
+          "1.0.0-alpha01"
         ],
         "foundation-text": [
           "0.1.0-dev15",
           "0.1.0-dev16",
-          "0.1.0-dev17"
+          "0.1.0-dev17",
+          "1.0.0-alpha01"
         ]
       },
+      "preferred": "1.0.0-alpha01",
       "jetpackVersions": {
-        "latestUpdate": "2020-08-19"
+        "latestUpdate": "2020-08-26",
+        "alpha": "1.0.0-alpha01"
       }
     },
     "compose-material": {
@@ -641,21 +653,26 @@
         "material": [
           "0.1.0-dev15",
           "0.1.0-dev16",
-          "0.1.0-dev17"
+          "0.1.0-dev17",
+          "1.0.0-alpha01"
         ],
         "material-icons-core": [
           "0.1.0-dev15",
           "0.1.0-dev16",
-          "0.1.0-dev17"
+          "0.1.0-dev17",
+          "1.0.0-alpha01"
         ],
         "material-icons-extended": [
           "0.1.0-dev15",
           "0.1.0-dev16",
-          "0.1.0-dev17"
+          "0.1.0-dev17",
+          "1.0.0-alpha01"
         ]
       },
+      "preferred": "1.0.0-alpha01",
       "jetpackVersions": {
-        "latestUpdate": "2020-08-19"
+        "latestUpdate": "2020-08-26",
+        "alpha": "1.0.0-alpha01"
       }
     },
     "compose-runtime": {
@@ -664,31 +681,38 @@
         "runtime": [
           "0.1.0-dev15",
           "0.1.0-dev16",
-          "0.1.0-dev17"
+          "0.1.0-dev17",
+          "1.0.0-alpha01"
         ],
         "runtime-dispatch": [
           "0.1.0-dev15",
           "0.1.0-dev16",
-          "0.1.0-dev17"
+          "0.1.0-dev17",
+          "1.0.0-alpha01"
         ],
         "runtime-livedata": [
           "0.1.0-dev15",
           "0.1.0-dev16",
-          "0.1.0-dev17"
+          "0.1.0-dev17",
+          "1.0.0-alpha01"
         ],
         "runtime-rxjava2": [
           "0.1.0-dev15",
           "0.1.0-dev16",
-          "0.1.0-dev17"
+          "0.1.0-dev17",
+          "1.0.0-alpha01"
         ],
         "runtime-saved-instance-state": [
           "0.1.0-dev15",
           "0.1.0-dev16",
-          "0.1.0-dev17"
+          "0.1.0-dev17",
+          "1.0.0-alpha01"
         ]
       },
+      "preferred": "1.0.0-alpha01",
       "jetpackVersions": {
-        "latestUpdate": "2020-08-19"
+        "latestUpdate": "2020-08-26",
+        "alpha": "1.0.0-alpha01"
       }
     },
     "compose-ui": {
@@ -697,45 +721,55 @@
         "ui": [
           "0.1.0-dev15",
           "0.1.0-dev16",
-          "0.1.0-dev17"
+          "0.1.0-dev17",
+          "1.0.0-alpha01"
         ],
         "ui-geometry": [
           "0.1.0-dev15",
           "0.1.0-dev16",
-          "0.1.0-dev17"
+          "0.1.0-dev17",
+          "1.0.0-alpha01"
         ],
         "ui-graphics": [
           "0.1.0-dev15",
           "0.1.0-dev16",
-          "0.1.0-dev17"
+          "0.1.0-dev17",
+          "1.0.0-alpha01"
         ],
         "ui-text": [
           "0.1.0-dev15",
           "0.1.0-dev16",
-          "0.1.0-dev17"
+          "0.1.0-dev17",
+          "1.0.0-alpha01"
         ],
         "ui-text-android": [
           "0.1.0-dev15",
           "0.1.0-dev16",
-          "0.1.0-dev17"
+          "0.1.0-dev17",
+          "1.0.0-alpha01"
         ],
         "ui-unit": [
           "0.1.0-dev15",
           "0.1.0-dev16",
-          "0.1.0-dev17"
+          "0.1.0-dev17",
+          "1.0.0-alpha01"
         ],
         "ui-util": [
           "0.1.0-dev15",
           "0.1.0-dev16",
-          "0.1.0-dev17"
+          "0.1.0-dev17",
+          "1.0.0-alpha01"
         ],
         "ui-viewbinding": [
           "0.1.0-dev16",
-          "0.1.0-dev17"
+          "0.1.0-dev17",
+          "1.0.0-alpha01"
         ]
       },
+      "preferred": "1.0.0-alpha01",
       "jetpackVersions": {
-        "latestUpdate": "2020-08-19"
+        "latestUpdate": "2020-08-26",
+        "alpha": "1.0.0-alpha01"
       }
     },
     "concurrent": {
@@ -1180,7 +1214,8 @@
           "4.2.0-alpha04",
           "4.2.0-alpha05",
           "4.2.0-alpha06",
-          "4.2.0-alpha07"
+          "4.2.0-alpha07",
+          "4.2.0-alpha08"
         ],
         "databinding-common": [
           "3.2.0-alpha12",
@@ -1336,7 +1371,8 @@
           "4.2.0-alpha04",
           "4.2.0-alpha05",
           "4.2.0-alpha06",
-          "4.2.0-alpha07"
+          "4.2.0-alpha07",
+          "4.2.0-alpha08"
         ],
         "databinding-compiler": [
           "3.2.0-alpha12",
@@ -1492,7 +1528,8 @@
           "4.2.0-alpha04",
           "4.2.0-alpha05",
           "4.2.0-alpha06",
-          "4.2.0-alpha07"
+          "4.2.0-alpha07",
+          "4.2.0-alpha08"
         ],
         "databinding-compiler-common": [
           "3.2.0-alpha12",
@@ -1648,7 +1685,8 @@
           "4.2.0-alpha04",
           "4.2.0-alpha05",
           "4.2.0-alpha06",
-          "4.2.0-alpha07"
+          "4.2.0-alpha07",
+          "4.2.0-alpha08"
         ],
         "databinding-runtime": [
           "3.2.0-alpha12",
@@ -1804,7 +1842,8 @@
           "4.2.0-alpha04",
           "4.2.0-alpha05",
           "4.2.0-alpha06",
-          "4.2.0-alpha07"
+          "4.2.0-alpha07",
+          "4.2.0-alpha08"
         ],
         "library": [
           "3.2.0-alpha11"
@@ -1874,7 +1913,8 @@
           "4.2.0-alpha04",
           "4.2.0-alpha05",
           "4.2.0-alpha06",
-          "4.2.0-alpha07"
+          "4.2.0-alpha07",
+          "4.2.0-alpha08"
         ]
       },
       "preferred": "3.5.0",
@@ -4792,7 +4832,8 @@
           "0.1.0-dev14",
           "0.1.0-dev15",
           "0.1.0-dev16",
-          "0.1.0-dev17"
+          "0.1.0-dev17",
+          "1.0.0-alpha01"
         ],
         "ui-text": [
           "0.1.0-dev01",
@@ -4843,7 +4884,8 @@
           "0.1.0-dev14",
           "0.1.0-dev15",
           "0.1.0-dev16",
-          "0.1.0-dev17"
+          "0.1.0-dev17",
+          "1.0.0-alpha01"
         ],
         "ui-unit": [
           "0.1.0-dev04",
@@ -4887,8 +4929,10 @@
           "0.1.0-dev13"
         ]
       },
+      "preferred": "1.0.0-alpha01",
       "jetpackVersions": {
-        "latestUpdate": "2020-08-19"
+        "latestUpdate": "2020-08-26",
+        "alpha": "1.0.0-alpha01"
       }
     },
     "vectordrawable": {
@@ -5263,7 +5307,8 @@
       "artifacts": {
         "compose-theme-adapter": [
           "0.1.0-dev16",
-          "0.1.0-dev17"
+          "0.1.0-dev17",
+          "1.0.0-alpha01"
         ],
         "material": [
           "1.0.0-alpha1",

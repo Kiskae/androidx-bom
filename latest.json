@@ -5387,7 +5387,8 @@
         "compose-theme-adapter": [
           "0.1.0-dev16",
           "0.1.0-dev17",
-          "1.0.0-alpha01"
+          "1.0.0-alpha01",
+          "1.0.0-alpha02"
         ],
         "material": [
           "1.0.0-alpha1",

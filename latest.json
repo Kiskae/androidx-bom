@@ -479,10 +479,10 @@
           "1.0.0-alpha17"
         ]
       },
-      "preferred": "1.0.0-beta09",
+      "preferred": "1.0.0-beta10",
       "jetpackVersions": {
         "latestUpdate": "2020-09-23",
-        "beta": "1.0.0-beta09"
+        "beta": "1.0.0-beta10"
       }
     },
     "car": {

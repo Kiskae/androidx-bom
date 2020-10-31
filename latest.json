@@ -1,5 +1,5 @@
 {
-  "lastUpdate": "2020-10-28",
+  "lastUpdate": "2020-10-29",
   "groups": {
     "activity": {
       "groupId": "androidx.activity",
@@ -1008,10 +1008,10 @@
           "1.0.0-alpha1"
         ]
       },
-      "preferred": "2.0.3",
+      "preferred": "2.0.4",
       "jetpackVersions": {
-        "latestUpdate": "2020-10-27",
-        "stable": "2.0.3"
+        "latestUpdate": "2020-10-29",
+        "stable": "2.0.4"
       }
     },
     "contentpager": {

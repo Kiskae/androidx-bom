@@ -1,5 +1,5 @@
 {
-  "lastUpdate": "2020-10-29",
+  "lastUpdate": "2020-11-17",
   "groups": {
     "activity": {
       "groupId": "androidx.activity",
@@ -2201,26 +2201,30 @@
       "groupId": "androidx.datastore",
       "artifacts": {
         "datastore": [
-          "1.0.0-alpha03"
+          "1.0.0-alpha03",
+          "1.0.0-alpha04"
         ],
         "datastore-core": [
           "1.0.0-alpha01",
           "1.0.0-alpha02",
-          "1.0.0-alpha03"
+          "1.0.0-alpha03",
+          "1.0.0-alpha04"
         ],
         "datastore-preferences": [
           "1.0.0-alpha01",
           "1.0.0-alpha02",
-          "1.0.0-alpha03"
+          "1.0.0-alpha03",
+          "1.0.0-alpha04"
         ],
         "datastore-preferences-core": [
-          "1.0.0-alpha03"
+          "1.0.0-alpha03",
+          "1.0.0-alpha04"
         ]
       },
-      "preferred": "1.0.0-alpha03",
+      "preferred": "1.0.0-alpha04",
       "jetpackVersions": {
-        "latestUpdate": "2020-11-11",
-        "alpha": "1.0.0-alpha03"
+        "latestUpdate": "2020-11-17",
+        "alpha": "1.0.0-alpha04"
       }
     },
     "documentfile": {

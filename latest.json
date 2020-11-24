@@ -622,10 +622,10 @@
           "0.1.0-dev14"
         ]
       },
-      "preferred": "1.0.0-alpha04",
+      "preferred": "1.0.0-alpha07",
       "jetpackVersions": {
-        "latestUpdate": "2020-09-16",
-        "alpha": "1.0.0-alpha04"
+        "latestUpdate": "2020-11-11",
+        "alpha": "1.0.0-alpha07"
       }
     },
     "compose.animation": {

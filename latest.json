@@ -511,26 +511,6 @@
         "beta": "1.0.0-beta12"
       }
     },
-    "car": {
-      "groupId": "androidx.car",
-      "artifacts": {
-        "car": [
-          "1.0.0-alpha1",
-          "1.0.0-alpha3",
-          "1.0.0-alpha4",
-          "1.0.0-alpha5",
-          "1.0.0-alpha7"
-        ],
-        "car-cluster": [
-          "1.0.0-alpha5"
-        ]
-      },
-      "preferred": "1.0.0-alpha7",
-      "jetpackVersions": {
-        "latestUpdate": "2019-04-03",
-        "alpha": "1.0.0-alpha7"
-      }
-    },
     "cardview": {
       "groupId": "androidx.cardview",
       "artifacts": {
@@ -1461,8 +1441,10 @@
           "4.2.0-alpha15",
           "4.2.0-alpha16",
           "4.2.0-beta01",
+          "4.2.0-beta02",
           "7.0.0-alpha01",
-          "7.0.0-alpha02"
+          "7.0.0-alpha02",
+          "7.0.0-alpha03"
         ],
         "databinding-common": [
           "3.2.0-alpha12",
@@ -1634,8 +1616,10 @@
           "4.2.0-alpha15",
           "4.2.0-alpha16",
           "4.2.0-beta01",
+          "4.2.0-beta02",
           "7.0.0-alpha01",
-          "7.0.0-alpha02"
+          "7.0.0-alpha02",
+          "7.0.0-alpha03"
         ],
         "databinding-compiler": [
           "3.2.0-alpha12",
@@ -1807,8 +1791,10 @@
           "4.2.0-alpha15",
           "4.2.0-alpha16",
           "4.2.0-beta01",
+          "4.2.0-beta02",
           "7.0.0-alpha01",
-          "7.0.0-alpha02"
+          "7.0.0-alpha02",
+          "7.0.0-alpha03"
         ],
         "databinding-compiler-common": [
           "3.2.0-alpha12",
@@ -1980,8 +1966,10 @@
           "4.2.0-alpha15",
           "4.2.0-alpha16",
           "4.2.0-beta01",
+          "4.2.0-beta02",
           "7.0.0-alpha01",
-          "7.0.0-alpha02"
+          "7.0.0-alpha02",
+          "7.0.0-alpha03"
         ],
         "databinding-runtime": [
           "3.2.0-alpha12",
@@ -2153,8 +2141,10 @@
           "4.2.0-alpha15",
           "4.2.0-alpha16",
           "4.2.0-beta01",
+          "4.2.0-beta02",
           "7.0.0-alpha01",
-          "7.0.0-alpha02"
+          "7.0.0-alpha02",
+          "7.0.0-alpha03"
         ],
         "library": [
           "3.2.0-alpha11"
@@ -2240,8 +2230,10 @@
           "4.2.0-alpha15",
           "4.2.0-alpha16",
           "4.2.0-beta01",
+          "4.2.0-beta02",
           "7.0.0-alpha01",
-          "7.0.0-alpha02"
+          "7.0.0-alpha02",
+          "7.0.0-alpha03"
         ]
       },
       "preferred": "3.5.0",

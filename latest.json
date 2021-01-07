@@ -1501,9 +1501,11 @@
           "4.2.0-alpha16",
           "4.2.0-beta01",
           "4.2.0-beta02",
+          "4.2.0-beta03",
           "7.0.0-alpha01",
           "7.0.0-alpha02",
-          "7.0.0-alpha03"
+          "7.0.0-alpha03",
+          "7.0.0-alpha04"
         ],
         "databinding-common": [
           "3.2.0-alpha12",
@@ -1676,9 +1678,11 @@
           "4.2.0-alpha16",
           "4.2.0-beta01",
           "4.2.0-beta02",
+          "4.2.0-beta03",
           "7.0.0-alpha01",
           "7.0.0-alpha02",
-          "7.0.0-alpha03"
+          "7.0.0-alpha03",
+          "7.0.0-alpha04"
         ],
         "databinding-compiler": [
           "3.2.0-alpha12",
@@ -1851,9 +1855,11 @@
           "4.2.0-alpha16",
           "4.2.0-beta01",
           "4.2.0-beta02",
+          "4.2.0-beta03",
           "7.0.0-alpha01",
           "7.0.0-alpha02",
-          "7.0.0-alpha03"
+          "7.0.0-alpha03",
+          "7.0.0-alpha04"
         ],
         "databinding-compiler-common": [
           "3.2.0-alpha12",
@@ -2026,9 +2032,14 @@
           "4.2.0-alpha16",
           "4.2.0-beta01",
           "4.2.0-beta02",
+          "4.2.0-beta03",
           "7.0.0-alpha01",
           "7.0.0-alpha02",
-          "7.0.0-alpha03"
+          "7.0.0-alpha03",
+          "7.0.0-alpha04"
+        ],
+        "databinding-ktx": [
+          "7.0.0-alpha04"
         ],
         "databinding-runtime": [
           "3.2.0-alpha12",
@@ -2201,9 +2212,11 @@
           "4.2.0-alpha16",
           "4.2.0-beta01",
           "4.2.0-beta02",
+          "4.2.0-beta03",
           "7.0.0-alpha01",
           "7.0.0-alpha02",
-          "7.0.0-alpha03"
+          "7.0.0-alpha03",
+          "7.0.0-alpha04"
         ],
         "library": [
           "3.2.0-alpha11"
@@ -2290,9 +2303,11 @@
           "4.2.0-alpha16",
           "4.2.0-beta01",
           "4.2.0-beta02",
+          "4.2.0-beta03",
           "7.0.0-alpha01",
           "7.0.0-alpha02",
-          "7.0.0-alpha03"
+          "7.0.0-alpha03",
+          "7.0.0-alpha04"
         ]
       },
       "preferred": "3.5.0",

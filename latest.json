@@ -1127,31 +1127,6 @@
     "constraintlayout": {
       "groupId": "androidx.constraintlayout",
       "artifacts": {
-        "constraintlayout-solver": [
-          "1.1.0",
-          "1.1.1",
-          "1.1.2",
-          "1.1.3",
-          "2.0.0-alpha1",
-          "2.0.0-alpha2",
-          "2.0.0-alpha3",
-          "2.0.0-alpha4",
-          "2.0.0-alpha5",
-          "2.0.0-beta1",
-          "2.0.0-beta2",
-          "2.0.0-beta3",
-          "2.0.0-beta4",
-          "2.0.0-beta5",
-          "2.0.0-beta6",
-          "2.0.0-beta7",
-          "2.0.0-beta8",
-          "2.0.0-rc1",
-          "2.0.0",
-          "2.0.1",
-          "2.0.2",
-          "2.0.3",
-          "2.0.4"
-        ],
         "constraintlayout": [
           "1.1.0",
           "1.1.1",
@@ -1179,10 +1154,38 @@
           "2.1.0-alpha1",
           "2.1.0-alpha2"
         ],
+        "constraintlayout-compose": [
+          "1.0.0-alpha01"
+        ],
         "constraintlayout-core": [
           "1.0.0-alpha1",
           "1.0.0-alpha2",
           "1.0.0-alpha3"
+        ],
+        "constraintlayout-solver": [
+          "1.1.0",
+          "1.1.1",
+          "1.1.2",
+          "1.1.3",
+          "2.0.0-alpha1",
+          "2.0.0-alpha2",
+          "2.0.0-alpha3",
+          "2.0.0-alpha4",
+          "2.0.0-alpha5",
+          "2.0.0-beta1",
+          "2.0.0-beta2",
+          "2.0.0-beta3",
+          "2.0.0-beta4",
+          "2.0.0-beta5",
+          "2.0.0-beta6",
+          "2.0.0-beta7",
+          "2.0.0-beta8",
+          "2.0.0-rc1",
+          "2.0.0",
+          "2.0.1",
+          "2.0.2",
+          "2.0.3",
+          "2.0.4"
         ]
       },
       "preferred": "2.0.4",

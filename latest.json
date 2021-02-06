@@ -533,26 +533,6 @@
         "rc": "1.0.0-rc02"
       }
     },
-    "car": {
-      "groupId": "androidx.car",
-      "artifacts": {
-        "car": [
-          "1.0.0-alpha1",
-          "1.0.0-alpha3",
-          "1.0.0-alpha4",
-          "1.0.0-alpha5",
-          "1.0.0-alpha7"
-        ],
-        "car-cluster": [
-          "1.0.0-alpha5"
-        ]
-      },
-      "preferred": "1.0.0-alpha7",
-      "jetpackVersions": {
-        "latestUpdate": "2019-04-03",
-        "alpha": "1.0.0-alpha7"
-      }
-    },
     "cardview": {
       "groupId": "androidx.cardview",
       "artifacts": {

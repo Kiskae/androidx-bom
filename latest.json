@@ -1,5 +1,5 @@
 {
-  "lastUpdate": "2021-02-10",
+  "lastUpdate": "2021-02-18",
   "groups": {
     "activity": {
       "groupId": "androidx.activity",
@@ -1601,7 +1601,8 @@
           "7.0.0-alpha03",
           "7.0.0-alpha04",
           "7.0.0-alpha05",
-          "7.0.0-alpha06"
+          "7.0.0-alpha06",
+          "7.0.0-alpha07"
         ],
         "databinding-common": [
           "3.2.0-alpha12",
@@ -1782,7 +1783,8 @@
           "7.0.0-alpha03",
           "7.0.0-alpha04",
           "7.0.0-alpha05",
-          "7.0.0-alpha06"
+          "7.0.0-alpha06",
+          "7.0.0-alpha07"
         ],
         "databinding-compiler": [
           "3.2.0-alpha12",
@@ -1963,7 +1965,8 @@
           "7.0.0-alpha03",
           "7.0.0-alpha04",
           "7.0.0-alpha05",
-          "7.0.0-alpha06"
+          "7.0.0-alpha06",
+          "7.0.0-alpha07"
         ],
         "databinding-compiler-common": [
           "3.2.0-alpha12",
@@ -2144,12 +2147,14 @@
           "7.0.0-alpha03",
           "7.0.0-alpha04",
           "7.0.0-alpha05",
-          "7.0.0-alpha06"
+          "7.0.0-alpha06",
+          "7.0.0-alpha07"
         ],
         "databinding-ktx": [
           "7.0.0-alpha04",
           "7.0.0-alpha05",
-          "7.0.0-alpha06"
+          "7.0.0-alpha06",
+          "7.0.0-alpha07"
         ],
         "databinding-runtime": [
           "3.2.0-alpha12",
@@ -2330,7 +2335,8 @@
           "7.0.0-alpha03",
           "7.0.0-alpha04",
           "7.0.0-alpha05",
-          "7.0.0-alpha06"
+          "7.0.0-alpha06",
+          "7.0.0-alpha07"
         ],
         "library": [
           "3.2.0-alpha11"
@@ -2425,7 +2431,8 @@
           "7.0.0-alpha03",
           "7.0.0-alpha04",
           "7.0.0-alpha05",
-          "7.0.0-alpha06"
+          "7.0.0-alpha06",
+          "7.0.0-alpha07"
         ]
       },
       "preferred": "3.5.0",
@@ -4739,7 +4746,8 @@
           "2.3.0-alpha02",
           "2.3.0-alpha03",
           "2.3.0-alpha04",
-          "2.3.0-beta01"
+          "2.3.0-beta01",
+          "2.3.0-beta02"
         ],
         "room-compiler": [
           "2.0.0-alpha1",
@@ -4771,12 +4779,14 @@
           "2.3.0-alpha02",
           "2.3.0-alpha03",
           "2.3.0-alpha04",
-          "2.3.0-beta01"
+          "2.3.0-beta01",
+          "2.3.0-beta02"
         ],
         "room-compiler-processing": [
           "2.3.0-alpha03",
           "2.3.0-alpha04",
-          "2.3.0-beta01"
+          "2.3.0-beta01",
+          "2.3.0-beta02"
         ],
         "room-coroutines": [
           "2.1.0-alpha03",
@@ -4812,7 +4822,8 @@
           "2.3.0-alpha02",
           "2.3.0-alpha03",
           "2.3.0-alpha04",
-          "2.3.0-beta01"
+          "2.3.0-beta01",
+          "2.3.0-beta02"
         ],
         "room-ktx": [
           "2.1.0-alpha05",
@@ -4836,7 +4847,8 @@
           "2.3.0-alpha02",
           "2.3.0-alpha03",
           "2.3.0-alpha04",
-          "2.3.0-beta01"
+          "2.3.0-beta01",
+          "2.3.0-beta02"
         ],
         "room-migration": [
           "2.0.0-alpha1",
@@ -4868,7 +4880,8 @@
           "2.3.0-alpha02",
           "2.3.0-alpha03",
           "2.3.0-alpha04",
-          "2.3.0-beta01"
+          "2.3.0-beta01",
+          "2.3.0-beta02"
         ],
         "room-runtime": [
           "2.0.0-alpha1",
@@ -4900,7 +4913,8 @@
           "2.3.0-alpha02",
           "2.3.0-alpha03",
           "2.3.0-alpha04",
-          "2.3.0-beta01"
+          "2.3.0-beta01",
+          "2.3.0-beta02"
         ],
         "room-rxjava2": [
           "2.0.0-alpha1",
@@ -4932,13 +4946,15 @@
           "2.3.0-alpha02",
           "2.3.0-alpha03",
           "2.3.0-alpha04",
-          "2.3.0-beta01"
+          "2.3.0-beta01",
+          "2.3.0-beta02"
         ],
         "room-rxjava3": [
           "2.3.0-alpha02",
           "2.3.0-alpha03",
           "2.3.0-alpha04",
-          "2.3.0-beta01"
+          "2.3.0-beta01",
+          "2.3.0-beta02"
         ],
         "room-testing": [
           "2.0.0-alpha1",
@@ -4970,14 +4986,15 @@
           "2.3.0-alpha02",
           "2.3.0-alpha03",
           "2.3.0-alpha04",
-          "2.3.0-beta01"
+          "2.3.0-beta01",
+          "2.3.0-beta02"
         ]
       },
       "preferred": "2.2.6",
       "jetpackVersions": {
-        "latestUpdate": "2021-01-27",
+        "latestUpdate": "2021-02-18",
         "stable": "2.2.6",
-        "beta": "2.3.0-beta01"
+        "beta": "2.3.0-beta02"
       }
     },
     "savedstate": {
@@ -5810,16 +5827,17 @@
       "artifacts": {
         "window": [
           "1.0.0-alpha01",
-          "1.0.0-alpha02"
+          "1.0.0-alpha02",
+          "1.0.0-alpha03"
         ],
         "window-extensions": [
           "1.0.0-alpha01"
         ]
       },
-      "preferred": "1.0.0-alpha02",
+      "preferred": "1.0.0-alpha03",
       "jetpackVersions": {
-        "latestUpdate": "2021-01-27",
-        "alpha": "1.0.0-alpha02"
+        "latestUpdate": "2021-02-18",
+        "alpha": "1.0.0-alpha03"
       }
     },
     "work": {
@@ -5853,7 +5871,8 @@
           "2.5.0-beta01",
           "2.5.0-beta02",
           "2.5.0-rc01",
-          "2.5.0"
+          "2.5.0",
+          "2.7.0-alpha01"
         ],
         "work-multiprocess": [
           "2.5.0-alpha02",
@@ -5861,7 +5880,8 @@
           "2.5.0-beta01",
           "2.5.0-beta02",
           "2.5.0-rc01",
-          "2.5.0"
+          "2.5.0",
+          "2.7.0-alpha01"
         ],
         "work-runtime": [
           "2.0.0-rc01",
@@ -5902,7 +5922,8 @@
           "2.5.0-beta01",
           "2.5.0-beta02",
           "2.5.0-rc01",
-          "2.5.0"
+          "2.5.0",
+          "2.7.0-alpha01"
         ],
         "work-runtime-ktx": [
           "2.0.0-rc01",
@@ -5943,7 +5964,8 @@
           "2.5.0-beta01",
           "2.5.0-beta02",
           "2.5.0-rc01",
-          "2.5.0"
+          "2.5.0",
+          "2.7.0-alpha01"
         ],
         "work-rxjava2": [
           "2.0.0-rc01",
@@ -5984,7 +6006,8 @@
           "2.5.0-beta01",
           "2.5.0-beta02",
           "2.5.0-rc01",
-          "2.5.0"
+          "2.5.0",
+          "2.7.0-alpha01"
         ],
         "work-rxjava3": [
           "2.4.0-alpha03",
@@ -5997,7 +6020,8 @@
           "2.5.0-beta01",
           "2.5.0-beta02",
           "2.5.0-rc01",
-          "2.5.0"
+          "2.5.0",
+          "2.7.0-alpha01"
         ],
         "work-testing": [
           "2.0.0-rc01",
@@ -6038,13 +6062,15 @@
           "2.5.0-beta01",
           "2.5.0-beta02",
           "2.5.0-rc01",
-          "2.5.0"
+          "2.5.0",
+          "2.7.0-alpha01"
         ]
       },
       "preferred": "2.5.0",
       "jetpackVersions": {
-        "latestUpdate": "2021-01-27",
-        "stable": "2.5.0"
+        "latestUpdate": "2021-02-18",
+        "stable": "2.5.0",
+        "alpha": "2.7.0-alpha01"
       }
     },
     "legacy-google-material": {

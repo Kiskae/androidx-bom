@@ -418,7 +418,7 @@
         "stable": "1.3.0"
       }
     },
-    "car.app": {
+    "car-app": {
       "groupId": "androidx.car.app",
       "artifacts": {
         "app": [

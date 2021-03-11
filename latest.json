@@ -1,5 +1,5 @@
 {
-  "lastUpdate": "2021-02-24",
+  "lastUpdate": "2021-03-10",
   "groups": {
     "activity": {
       "groupId": "androidx.activity",
@@ -36,14 +36,17 @@
           "1.2.0-beta02",
           "1.2.0-rc01",
           "1.2.0",
+          "1.2.1",
           "1.3.0-alpha01",
           "1.3.0-alpha02",
-          "1.3.0-alpha03"
+          "1.3.0-alpha03",
+          "1.3.0-alpha04"
         ],
         "activity-compose": [
           "1.3.0-alpha01",
           "1.3.0-alpha02",
-          "1.3.0-alpha03"
+          "1.3.0-alpha03",
+          "1.3.0-alpha04"
         ],
         "activity-ktx": [
           "1.0.0-alpha01",
@@ -77,16 +80,18 @@
           "1.2.0-beta02",
           "1.2.0-rc01",
           "1.2.0",
+          "1.2.1",
           "1.3.0-alpha01",
           "1.3.0-alpha02",
-          "1.3.0-alpha03"
+          "1.3.0-alpha03",
+          "1.3.0-alpha04"
         ]
       },
-      "preferred": "1.2.0",
+      "preferred": "1.2.1",
       "jetpackVersions": {
-        "latestUpdate": "2021-02-24",
-        "stable": "1.2.0",
-        "alpha": "1.3.0-alpha03"
+        "latestUpdate": "2021-03-10",
+        "stable": "1.2.1",
+        "alpha": "1.3.0-alpha04"
       }
     },
     "ads": {
@@ -143,7 +148,8 @@
           "1.0.0-rc01",
           "1.0.0",
           "1.1.0-alpha01",
-          "1.1.0-beta01"
+          "1.1.0-beta01",
+          "1.1.0-rc01"
         ],
         "annotation-experimental-lint": [
           "1.0.0-alpha01",
@@ -154,7 +160,7 @@
       },
       "preferred": "1.1.0",
       "jetpackVersions": {
-        "latestUpdate": "2021-02-24",
+        "latestUpdate": "2021-03-10",
         "stable": "1.1.0",
         "rc": "1.2.0-rc01"
       }
@@ -672,10 +678,10 @@
           "0.1.0-dev14"
         ]
       },
-      "preferred": "1.0.0-beta01",
+      "preferred": "1.0.0-beta02",
       "jetpackVersions": {
-        "latestUpdate": "2021-02-24",
-        "beta": "1.0.0-beta01"
+        "latestUpdate": "2021-03-10",
+        "beta": "1.0.0-beta02"
       }
     },
     "compose.animation": {
@@ -697,7 +703,8 @@
           "1.0.0-alpha10",
           "1.0.0-alpha11",
           "1.0.0-alpha12",
-          "1.0.0-beta01"
+          "1.0.0-beta01",
+          "1.0.0-beta02"
         ],
         "animation-core": [
           "0.1.0-dev15",
@@ -715,13 +722,14 @@
           "1.0.0-alpha10",
           "1.0.0-alpha11",
           "1.0.0-alpha12",
-          "1.0.0-beta01"
+          "1.0.0-beta01",
+          "1.0.0-beta02"
         ]
       },
-      "preferred": "1.0.0-beta01",
+      "preferred": "1.0.0-beta02",
       "jetpackVersions": {
-        "latestUpdate": "2021-02-24",
-        "beta": "1.0.0-beta01"
+        "latestUpdate": "2021-03-10",
+        "beta": "1.0.0-beta02"
       }
     },
     "compose.compiler": {
@@ -737,13 +745,14 @@
           "1.0.0-alpha10",
           "1.0.0-alpha11",
           "1.0.0-alpha12",
-          "1.0.0-beta01"
+          "1.0.0-beta01",
+          "1.0.0-beta02"
         ]
       },
-      "preferred": "1.0.0-beta01",
+      "preferred": "1.0.0-beta02",
       "jetpackVersions": {
-        "latestUpdate": "2021-02-24",
-        "beta": "1.0.0-beta01"
+        "latestUpdate": "2021-03-10",
+        "beta": "1.0.0-beta02"
       }
     },
     "compose.foundation": {
@@ -765,7 +774,8 @@
           "1.0.0-alpha10",
           "1.0.0-alpha11",
           "1.0.0-alpha12",
-          "1.0.0-beta01"
+          "1.0.0-beta01",
+          "1.0.0-beta02"
         ],
         "foundation-layout": [
           "0.1.0-dev15",
@@ -783,7 +793,8 @@
           "1.0.0-alpha10",
           "1.0.0-alpha11",
           "1.0.0-alpha12",
-          "1.0.0-beta01"
+          "1.0.0-beta01",
+          "1.0.0-beta02"
         ],
         "foundation-text": [
           "0.1.0-dev15",
@@ -798,10 +809,10 @@
           "1.0.0-alpha07"
         ]
       },
-      "preferred": "1.0.0-beta01",
+      "preferred": "1.0.0-beta02",
       "jetpackVersions": {
-        "latestUpdate": "2021-02-24",
-        "beta": "1.0.0-beta01"
+        "latestUpdate": "2021-03-10",
+        "beta": "1.0.0-beta02"
       }
     },
     "compose.material": {
@@ -823,7 +834,8 @@
           "1.0.0-alpha10",
           "1.0.0-alpha11",
           "1.0.0-alpha12",
-          "1.0.0-beta01"
+          "1.0.0-beta01",
+          "1.0.0-beta02"
         ],
         "material-icons-core": [
           "0.1.0-dev15",
@@ -841,7 +853,8 @@
           "1.0.0-alpha10",
           "1.0.0-alpha11",
           "1.0.0-alpha12",
-          "1.0.0-beta01"
+          "1.0.0-beta01",
+          "1.0.0-beta02"
         ],
         "material-icons-extended": [
           "0.1.0-dev15",
@@ -859,20 +872,22 @@
           "1.0.0-alpha10",
           "1.0.0-alpha11",
           "1.0.0-alpha12",
-          "1.0.0-beta01"
+          "1.0.0-beta01",
+          "1.0.0-beta02"
         ],
         "material-ripple": [
           "1.0.0-alpha09",
           "1.0.0-alpha10",
           "1.0.0-alpha11",
           "1.0.0-alpha12",
-          "1.0.0-beta01"
+          "1.0.0-beta01",
+          "1.0.0-beta02"
         ]
       },
-      "preferred": "1.0.0-beta01",
+      "preferred": "1.0.0-beta02",
       "jetpackVersions": {
-        "latestUpdate": "2021-02-24",
-        "beta": "1.0.0-beta01"
+        "latestUpdate": "2021-03-10",
+        "beta": "1.0.0-beta02"
       }
     },
     "compose.runtime": {
@@ -894,7 +909,8 @@
           "1.0.0-alpha10",
           "1.0.0-alpha11",
           "1.0.0-alpha12",
-          "1.0.0-beta01"
+          "1.0.0-beta01",
+          "1.0.0-beta02"
         ],
         "runtime-dispatch": [
           "0.1.0-dev15",
@@ -929,7 +945,8 @@
           "1.0.0-alpha10",
           "1.0.0-alpha11",
           "1.0.0-alpha12",
-          "1.0.0-beta01"
+          "1.0.0-beta01",
+          "1.0.0-beta02"
         ],
         "runtime-rxjava2": [
           "0.1.0-dev15",
@@ -947,7 +964,8 @@
           "1.0.0-alpha10",
           "1.0.0-alpha11",
           "1.0.0-alpha12",
-          "1.0.0-beta01"
+          "1.0.0-beta01",
+          "1.0.0-beta02"
         ],
         "runtime-rxjava3": [
           "1.0.0-alpha07",
@@ -956,11 +974,13 @@
           "1.0.0-alpha10",
           "1.0.0-alpha11",
           "1.0.0-alpha12",
-          "1.0.0-beta01"
+          "1.0.0-beta01",
+          "1.0.0-beta02"
         ],
         "runtime-saveable": [
           "1.0.0-alpha12",
-          "1.0.0-beta01"
+          "1.0.0-beta01",
+          "1.0.0-beta02"
         ],
         "runtime-saved-instance-state": [
           "0.1.0-dev15",
@@ -979,10 +999,10 @@
           "1.0.0-alpha11"
         ]
       },
-      "preferred": "1.0.0-beta01",
+      "preferred": "1.0.0-beta02",
       "jetpackVersions": {
-        "latestUpdate": "2021-02-24",
-        "beta": "1.0.0-beta01"
+        "latestUpdate": "2021-03-10",
+        "beta": "1.0.0-beta02"
       }
     },
     "compose.ui": {
@@ -1004,7 +1024,8 @@
           "1.0.0-alpha10",
           "1.0.0-alpha11",
           "1.0.0-alpha12",
-          "1.0.0-beta01"
+          "1.0.0-beta01",
+          "1.0.0-beta02"
         ],
         "ui-geometry": [
           "0.1.0-dev15",
@@ -1022,7 +1043,8 @@
           "1.0.0-alpha10",
           "1.0.0-alpha11",
           "1.0.0-alpha12",
-          "1.0.0-beta01"
+          "1.0.0-beta01",
+          "1.0.0-beta02"
         ],
         "ui-graphics": [
           "0.1.0-dev15",
@@ -1040,7 +1062,8 @@
           "1.0.0-alpha10",
           "1.0.0-alpha11",
           "1.0.0-alpha12",
-          "1.0.0-beta01"
+          "1.0.0-beta01",
+          "1.0.0-beta02"
         ],
         "ui-test": [
           "1.0.0-alpha07",
@@ -1049,7 +1072,8 @@
           "1.0.0-alpha10",
           "1.0.0-alpha11",
           "1.0.0-alpha12",
-          "1.0.0-beta01"
+          "1.0.0-beta01",
+          "1.0.0-beta02"
         ],
         "ui-test-junit4": [
           "1.0.0-alpha07",
@@ -1058,7 +1082,8 @@
           "1.0.0-alpha10",
           "1.0.0-alpha11",
           "1.0.0-alpha12",
-          "1.0.0-beta01"
+          "1.0.0-beta01",
+          "1.0.0-beta02"
         ],
         "ui-text": [
           "0.1.0-dev15",
@@ -1076,7 +1101,8 @@
           "1.0.0-alpha10",
           "1.0.0-alpha11",
           "1.0.0-alpha12",
-          "1.0.0-beta01"
+          "1.0.0-beta01",
+          "1.0.0-beta02"
         ],
         "ui-text-android": [
           "0.1.0-dev15",
@@ -1095,11 +1121,13 @@
           "1.0.0-alpha10",
           "1.0.0-alpha11",
           "1.0.0-alpha12",
-          "1.0.0-beta01"
+          "1.0.0-beta01",
+          "1.0.0-beta02"
         ],
         "ui-tooling-data": [
           "1.0.0-alpha12",
-          "1.0.0-beta01"
+          "1.0.0-beta01",
+          "1.0.0-beta02"
         ],
         "ui-unit": [
           "0.1.0-dev15",
@@ -1117,7 +1145,8 @@
           "1.0.0-alpha10",
           "1.0.0-alpha11",
           "1.0.0-alpha12",
-          "1.0.0-beta01"
+          "1.0.0-beta01",
+          "1.0.0-beta02"
         ],
         "ui-util": [
           "0.1.0-dev15",
@@ -1135,7 +1164,8 @@
           "1.0.0-alpha10",
           "1.0.0-alpha11",
           "1.0.0-alpha12",
-          "1.0.0-beta01"
+          "1.0.0-beta01",
+          "1.0.0-beta02"
         ],
         "ui-viewbinding": [
           "0.1.0-dev16",
@@ -1152,13 +1182,14 @@
           "1.0.0-alpha10",
           "1.0.0-alpha11",
           "1.0.0-alpha12",
-          "1.0.0-beta01"
+          "1.0.0-beta01",
+          "1.0.0-beta02"
         ]
       },
-      "preferred": "1.0.0-beta01",
+      "preferred": "1.0.0-beta02",
       "jetpackVersions": {
-        "latestUpdate": "2021-02-24",
-        "beta": "1.0.0-beta01"
+        "latestUpdate": "2021-03-10",
+        "beta": "1.0.0-beta02"
       }
     },
     "concurrent": {
@@ -1355,7 +1386,8 @@
           "1.5.0-alpha04",
           "1.5.0-alpha05",
           "1.5.0-beta01",
-          "1.5.0-beta02"
+          "1.5.0-beta02",
+          "1.5.0-beta03"
         ],
         "core-animation": [
           "1.0.0-alpha01",
@@ -1405,7 +1437,8 @@
           "1.5.0-alpha04",
           "1.5.0-alpha05",
           "1.5.0-beta01",
-          "1.5.0-beta02"
+          "1.5.0-beta02",
+          "1.5.0-beta03"
         ],
         "core-role": [
           "1.0.0-alpha01",
@@ -1417,9 +1450,9 @@
       },
       "preferred": "1.3.2",
       "jetpackVersions": {
-        "latestUpdate": "2021-02-24",
+        "latestUpdate": "2021-03-10",
         "stable": "1.3.2",
-        "beta": "1.5.0-beta02"
+        "beta": "1.5.0-beta03"
       }
     },
     "cursoradapter": {
@@ -2532,7 +2565,8 @@
           "1.0.0-alpha04",
           "1.0.0-alpha05",
           "1.0.0-alpha06",
-          "1.0.0-alpha07"
+          "1.0.0-alpha07",
+          "1.0.0-alpha08"
         ],
         "datastore-core": [
           "1.0.0-alpha01",
@@ -2541,7 +2575,8 @@
           "1.0.0-alpha04",
           "1.0.0-alpha05",
           "1.0.0-alpha06",
-          "1.0.0-alpha07"
+          "1.0.0-alpha07",
+          "1.0.0-alpha08"
         ],
         "datastore-preferences": [
           "1.0.0-alpha01",
@@ -2550,36 +2585,42 @@
           "1.0.0-alpha04",
           "1.0.0-alpha05",
           "1.0.0-alpha06",
-          "1.0.0-alpha07"
+          "1.0.0-alpha07",
+          "1.0.0-alpha08"
         ],
         "datastore-preferences-core": [
           "1.0.0-alpha03",
           "1.0.0-alpha04",
           "1.0.0-alpha05",
           "1.0.0-alpha06",
-          "1.0.0-alpha07"
+          "1.0.0-alpha07",
+          "1.0.0-alpha08"
         ],
         "datastore-preferences-rxjava2": [
           "1.0.0-alpha06",
-          "1.0.0-alpha07"
+          "1.0.0-alpha07",
+          "1.0.0-alpha08"
         ],
         "datastore-preferences-rxjava3": [
           "1.0.0-alpha06",
-          "1.0.0-alpha07"
+          "1.0.0-alpha07",
+          "1.0.0-alpha08"
         ],
         "datastore-rxjava2": [
           "1.0.0-alpha06",
-          "1.0.0-alpha07"
+          "1.0.0-alpha07",
+          "1.0.0-alpha08"
         ],
         "datastore-rxjava3": [
           "1.0.0-alpha06",
-          "1.0.0-alpha07"
+          "1.0.0-alpha07",
+          "1.0.0-alpha08"
         ]
       },
-      "preferred": "1.0.0-alpha07",
+      "preferred": "1.0.0-alpha08",
       "jetpackVersions": {
-        "latestUpdate": "2021-02-24",
-        "alpha": "1.0.0-alpha07"
+        "latestUpdate": "2021-03-10",
+        "alpha": "1.0.0-alpha08"
       }
     },
     "documentfile": {
@@ -2827,7 +2868,8 @@
           "1.3.0-beta02",
           "1.3.0-rc01",
           "1.3.0-rc02",
-          "1.3.0"
+          "1.3.0",
+          "1.3.1"
         ],
         "fragment-ktx": [
           "1.0.0-alpha1",
@@ -2880,7 +2922,8 @@
           "1.3.0-beta02",
           "1.3.0-rc01",
           "1.3.0-rc02",
-          "1.3.0"
+          "1.3.0",
+          "1.3.1"
         ],
         "fragment-testing": [
           "1.1.0-alpha01",
@@ -2927,13 +2970,14 @@
           "1.3.0-beta02",
           "1.3.0-rc01",
           "1.3.0-rc02",
-          "1.3.0"
+          "1.3.0",
+          "1.3.1"
         ]
       },
-      "preferred": "1.3.0",
+      "preferred": "1.3.1",
       "jetpackVersions": {
-        "latestUpdate": "2021-02-10",
-        "stable": "1.3.0"
+        "latestUpdate": "2021-03-10",
+        "stable": "1.3.1"
       }
     },
     "games": {
@@ -3002,12 +3046,14 @@
         "hilt-common": [
           "1.0.0-alpha01",
           "1.0.0-alpha02",
-          "1.0.0-alpha03"
+          "1.0.0-alpha03",
+          "1.0.0-beta01"
         ],
         "hilt-compiler": [
           "1.0.0-alpha01",
           "1.0.0-alpha02",
-          "1.0.0-alpha03"
+          "1.0.0-alpha03",
+          "1.0.0-beta01"
         ],
         "hilt-lifecycle-viewmodel": [
           "1.0.0-alpha01",
@@ -3015,21 +3061,27 @@
           "1.0.0-alpha03"
         ],
         "hilt-navigation": [
-          "1.0.0-alpha03"
+          "1.0.0-alpha03",
+          "1.0.0-beta01"
+        ],
+        "hilt-navigation-compose": [
+          "1.0.0-alpha01"
         ],
         "hilt-navigation-fragment": [
-          "1.0.0-alpha03"
+          "1.0.0-alpha03",
+          "1.0.0-beta01"
         ],
         "hilt-work": [
           "1.0.0-alpha01",
           "1.0.0-alpha02",
-          "1.0.0-alpha03"
+          "1.0.0-alpha03",
+          "1.0.0-beta01"
         ]
       },
-      "preferred": "1.0.0-alpha03",
+      "preferred": "1.0.0-beta01",
       "jetpackVersions": {
-        "latestUpdate": "2021-01-27",
-        "alpha": "1.0.0-alpha03"
+        "latestUpdate": "2021-03-10",
+        "beta": "1.0.0-beta01"
       }
     },
     "interpolator": {
@@ -3687,7 +3739,8 @@
         ],
         "lifecycle-viewmodel-compose": [
           "1.0.0-alpha01",
-          "1.0.0-alpha02"
+          "1.0.0-alpha02",
+          "1.0.0-alpha03"
         ],
         "lifecycle-viewmodel-ktx": [
           "2.0.0-alpha1",
@@ -3748,7 +3801,7 @@
       },
       "preferred": "2.3.0",
       "jetpackVersions": {
-        "latestUpdate": "2021-02-24",
+        "latestUpdate": "2021-03-10",
         "stable": "2.3.0"
       }
     },
@@ -3821,7 +3874,8 @@
           "1.2.0-rc01",
           "1.2.0",
           "1.2.1",
-          "1.3.0-beta01"
+          "1.3.0-beta01",
+          "1.3.0-rc01"
         ],
         "media-widget": [
           "1.0.0-alpha1",
@@ -3833,9 +3887,9 @@
       },
       "preferred": "1.2.1",
       "jetpackVersions": {
-        "latestUpdate": "2021-02-10",
+        "latestUpdate": "2021-03-10",
         "stable": "1.2.1",
-        "beta": "1.3.0-beta01"
+        "rc": "1.3.0-rc01"
       }
     },
     "media2": {
@@ -4021,7 +4075,8 @@
           "2.3.0",
           "2.3.1",
           "2.3.2",
-          "2.3.3"
+          "2.3.3",
+          "2.3.4"
         ],
         "navigation-common-ktx": [
           "2.0.0-rc02",
@@ -4058,7 +4113,8 @@
           "2.3.0",
           "2.3.1",
           "2.3.2",
-          "2.3.3"
+          "2.3.3",
+          "2.3.4"
         ],
         "navigation-compose": [
           "1.0.0-alpha01",
@@ -4068,7 +4124,8 @@
           "1.0.0-alpha05",
           "1.0.0-alpha06",
           "1.0.0-alpha07",
-          "1.0.0-alpha08"
+          "1.0.0-alpha08",
+          "1.0.0-alpha09"
         ],
         "navigation-dynamic-features-fragment": [
           "2.3.0-alpha01",
@@ -4082,7 +4139,8 @@
           "2.3.0",
           "2.3.1",
           "2.3.2",
-          "2.3.3"
+          "2.3.3",
+          "2.3.4"
         ],
         "navigation-dynamic-features-runtime": [
           "2.3.0-alpha01",
@@ -4096,7 +4154,8 @@
           "2.3.0",
           "2.3.1",
           "2.3.2",
-          "2.3.3"
+          "2.3.3",
+          "2.3.4"
         ],
         "navigation-fragment": [
           "2.0.0-rc02",
@@ -4133,7 +4192,8 @@
           "2.3.0",
           "2.3.1",
           "2.3.2",
-          "2.3.3"
+          "2.3.3",
+          "2.3.4"
         ],
         "navigation-fragment-ktx": [
           "2.0.0-rc02",
@@ -4170,7 +4230,8 @@
           "2.3.0",
           "2.3.1",
           "2.3.2",
-          "2.3.3"
+          "2.3.3",
+          "2.3.4"
         ],
         "navigation-runtime": [
           "2.0.0-rc02",
@@ -4207,7 +4268,8 @@
           "2.3.0",
           "2.3.1",
           "2.3.2",
-          "2.3.3"
+          "2.3.3",
+          "2.3.4"
         ],
         "navigation-runtime-ktx": [
           "2.0.0-rc02",
@@ -4244,7 +4306,8 @@
           "2.3.0",
           "2.3.1",
           "2.3.2",
-          "2.3.3"
+          "2.3.3",
+          "2.3.4"
         ],
         "navigation-safe-args-generator": [
           "2.0.0-rc02",
@@ -4281,7 +4344,8 @@
           "2.3.0",
           "2.3.1",
           "2.3.2",
-          "2.3.3"
+          "2.3.3",
+          "2.3.4"
         ],
         "navigation-safe-args-gradle-plugin": [
           "2.0.0-rc02",
@@ -4318,7 +4382,8 @@
           "2.3.0",
           "2.3.1",
           "2.3.2",
-          "2.3.3"
+          "2.3.3",
+          "2.3.4"
         ],
         "navigation-testing": [
           "2.3.0-alpha01",
@@ -4332,7 +4397,8 @@
           "2.3.0",
           "2.3.1",
           "2.3.2",
-          "2.3.3"
+          "2.3.3",
+          "2.3.4"
         ],
         "navigation-ui": [
           "2.0.0-rc02",
@@ -4369,50 +4435,14 @@
           "2.3.0",
           "2.3.1",
           "2.3.2",
-          "2.3.3"
-        ],
-        "navigation-ui-ktx": [
-          "2.0.0-rc02",
-          "2.0.0",
-          "2.1.0-alpha01",
-          "2.1.0-alpha02",
-          "2.1.0-alpha03",
-          "2.1.0-alpha04",
-          "2.1.0-alpha05",
-          "2.1.0-alpha06",
-          "2.1.0-beta01",
-          "2.1.0-beta02",
-          "2.1.0-rc01",
-          "2.1.0",
-          "2.2.0-alpha01",
-          "2.2.0-alpha02",
-          "2.2.0-alpha03",
-          "2.2.0-beta01",
-          "2.2.0-rc01",
-          "2.2.0-rc02",
-          "2.2.0-rc03",
-          "2.2.0-rc04",
-          "2.2.0",
-          "2.2.1",
-          "2.2.2",
-          "2.3.0-alpha01",
-          "2.3.0-alpha02",
-          "2.3.0-alpha03",
-          "2.3.0-alpha04",
-          "2.3.0-alpha05",
-          "2.3.0-alpha06",
-          "2.3.0-beta01",
-          "2.3.0-rc01",
-          "2.3.0",
-          "2.3.1",
-          "2.3.2",
-          "2.3.3"
+          "2.3.3",
+          "2.3.4"
         ]
       },
-      "preferred": "2.3.3",
+      "preferred": "2.3.4",
       "jetpackVersions": {
-        "latestUpdate": "2021-02-24",
-        "stable": "2.3.3"
+        "latestUpdate": "2021-03-10",
+        "stable": "2.3.4"
       }
     },
     "paging": {
@@ -4442,7 +4472,8 @@
           "3.0.0-alpha11",
           "3.0.0-alpha12",
           "3.0.0-alpha13",
-          "3.0.0-beta01"
+          "3.0.0-beta01",
+          "3.0.0-beta02"
         ],
         "paging-common-ktx": [
           "2.1.0-alpha01",
@@ -4464,7 +4495,8 @@
           "3.0.0-alpha11",
           "3.0.0-alpha12",
           "3.0.0-alpha13",
-          "3.0.0-beta01"
+          "3.0.0-beta01",
+          "3.0.0-beta02"
         ],
         "paging-compose": [
           "1.0.0-alpha01",
@@ -4490,7 +4522,8 @@
           "3.0.0-alpha11",
           "3.0.0-alpha12",
           "3.0.0-alpha13",
-          "3.0.0-beta01"
+          "3.0.0-beta01",
+          "3.0.0-beta02"
         ],
         "paging-runtime": [
           "2.0.0-alpha1",
@@ -4516,7 +4549,8 @@
           "3.0.0-alpha11",
           "3.0.0-alpha12",
           "3.0.0-alpha13",
-          "3.0.0-beta01"
+          "3.0.0-beta01",
+          "3.0.0-beta02"
         ],
         "paging-runtime-ktx": [
           "2.1.0-alpha01",
@@ -4538,7 +4572,8 @@
           "3.0.0-alpha11",
           "3.0.0-alpha12",
           "3.0.0-alpha13",
-          "3.0.0-beta01"
+          "3.0.0-beta01",
+          "3.0.0-beta02"
         ],
         "paging-rxjava2": [
           "1.0.0-alpha1",
@@ -4565,7 +4600,8 @@
           "3.0.0-alpha11",
           "3.0.0-alpha12",
           "3.0.0-alpha13",
-          "3.0.0-beta01"
+          "3.0.0-beta01",
+          "3.0.0-beta02"
         ],
         "paging-rxjava2-ktx": [
           "2.1.0-alpha01",
@@ -4587,7 +4623,8 @@
           "3.0.0-alpha11",
           "3.0.0-alpha12",
           "3.0.0-alpha13",
-          "3.0.0-beta01"
+          "3.0.0-beta01",
+          "3.0.0-beta02"
         ],
         "paging-rxjava3": [
           "3.0.0-alpha04",
@@ -4600,14 +4637,15 @@
           "3.0.0-alpha11",
           "3.0.0-alpha12",
           "3.0.0-alpha13",
-          "3.0.0-beta01"
+          "3.0.0-beta01",
+          "3.0.0-beta02"
         ]
       },
       "preferred": "2.1.2",
       "jetpackVersions": {
-        "latestUpdate": "2021-02-24",
+        "latestUpdate": "2021-03-10",
         "stable": "2.1.2",
-        "beta": "3.0.0-beta01"
+        "beta": "3.0.0-beta02"
       }
     },
     "palette": {
@@ -4843,7 +4881,8 @@
           "2.3.0-alpha03",
           "2.3.0-alpha04",
           "2.3.0-beta01",
-          "2.3.0-beta02"
+          "2.3.0-beta02",
+          "2.3.0-beta03"
         ],
         "room-compiler": [
           "2.0.0-alpha1",
@@ -4876,13 +4915,18 @@
           "2.3.0-alpha03",
           "2.3.0-alpha04",
           "2.3.0-beta01",
-          "2.3.0-beta02"
+          "2.3.0-beta02",
+          "2.3.0-beta03"
         ],
         "room-compiler-processing": [
           "2.3.0-alpha03",
           "2.3.0-alpha04",
           "2.3.0-beta01",
-          "2.3.0-beta02"
+          "2.3.0-beta02",
+          "2.3.0-beta03"
+        ],
+        "room-compiler-processing-testing": [
+          "2.3.0-beta03"
         ],
         "room-coroutines": [
           "2.1.0-alpha03",
@@ -4919,7 +4963,8 @@
           "2.3.0-alpha03",
           "2.3.0-alpha04",
           "2.3.0-beta01",
-          "2.3.0-beta02"
+          "2.3.0-beta02",
+          "2.3.0-beta03"
         ],
         "room-ktx": [
           "2.1.0-alpha05",
@@ -4944,7 +4989,8 @@
           "2.3.0-alpha03",
           "2.3.0-alpha04",
           "2.3.0-beta01",
-          "2.3.0-beta02"
+          "2.3.0-beta02",
+          "2.3.0-beta03"
         ],
         "room-migration": [
           "2.0.0-alpha1",
@@ -4977,7 +5023,8 @@
           "2.3.0-alpha03",
           "2.3.0-alpha04",
           "2.3.0-beta01",
-          "2.3.0-beta02"
+          "2.3.0-beta02",
+          "2.3.0-beta03"
         ],
         "room-runtime": [
           "2.0.0-alpha1",
@@ -5010,7 +5057,8 @@
           "2.3.0-alpha03",
           "2.3.0-alpha04",
           "2.3.0-beta01",
-          "2.3.0-beta02"
+          "2.3.0-beta02",
+          "2.3.0-beta03"
         ],
         "room-rxjava2": [
           "2.0.0-alpha1",
@@ -5043,14 +5091,16 @@
           "2.3.0-alpha03",
           "2.3.0-alpha04",
           "2.3.0-beta01",
-          "2.3.0-beta02"
+          "2.3.0-beta02",
+          "2.3.0-beta03"
         ],
         "room-rxjava3": [
           "2.3.0-alpha02",
           "2.3.0-alpha03",
           "2.3.0-alpha04",
           "2.3.0-beta01",
-          "2.3.0-beta02"
+          "2.3.0-beta02",
+          "2.3.0-beta03"
         ],
         "room-testing": [
           "2.0.0-alpha1",
@@ -5083,14 +5133,15 @@
           "2.3.0-alpha03",
           "2.3.0-alpha04",
           "2.3.0-beta01",
-          "2.3.0-beta02"
+          "2.3.0-beta02",
+          "2.3.0-beta03"
         ]
       },
       "preferred": "2.2.6",
       "jetpackVersions": {
-        "latestUpdate": "2021-02-18",
+        "latestUpdate": "2021-03-10",
         "stable": "2.2.6",
-        "beta": "2.3.0-beta02"
+        "beta": "2.3.0-beta03"
       }
     },
     "savedstate": {
@@ -5788,7 +5839,8 @@
           "1.0.0-alpha05",
           "1.0.0-alpha06",
           "1.0.0-alpha07",
-          "1.0.0-alpha08"
+          "1.0.0-alpha08",
+          "1.0.0-alpha09"
         ],
         "wear-complications-provider": [
           "1.0.0-alpha01",
@@ -5798,7 +5850,8 @@
           "1.0.0-alpha05",
           "1.0.0-alpha06",
           "1.0.0-alpha07",
-          "1.0.0-alpha08"
+          "1.0.0-alpha08",
+          "1.0.0-alpha09"
         ],
         "wear-input": [
           "1.0.0-alpha01",
@@ -5816,13 +5869,25 @@
         ],
         "wear-ongoing": [
           "1.0.0-alpha01",
-          "1.0.0-alpha02"
+          "1.0.0-alpha02",
+          "1.0.0-alpha03"
         ],
         "wear-phone-interactions": [
           "1.0.0-alpha01",
-          "1.0.0-alpha02"
+          "1.0.0-alpha02",
+          "1.0.0-alpha03"
         ],
         "wear-remote-interactions": [
+          "1.0.0-alpha01",
+          "1.0.0-alpha02"
+        ],
+        "wear-tiles": [
+          "1.0.0-alpha01"
+        ],
+        "wear-tiles-proto": [
+          "1.0.0-alpha01"
+        ],
+        "wear-tiles-renderer": [
           "1.0.0-alpha01"
         ],
         "wear-watchface": [
@@ -5833,7 +5898,8 @@
           "1.0.0-alpha05",
           "1.0.0-alpha06",
           "1.0.0-alpha07",
-          "1.0.0-alpha08"
+          "1.0.0-alpha08",
+          "1.0.0-alpha09"
         ],
         "wear-watchface-client": [
           "1.0.0-alpha02",
@@ -5842,10 +5908,12 @@
           "1.0.0-alpha05",
           "1.0.0-alpha06",
           "1.0.0-alpha07",
-          "1.0.0-alpha08"
+          "1.0.0-alpha08",
+          "1.0.0-alpha09"
         ],
         "wear-watchface-client-guava": [
-          "1.0.0-alpha08"
+          "1.0.0-alpha08",
+          "1.0.0-alpha09"
         ],
         "wear-watchface-complications-rendering": [
           "1.0.0-alpha01",
@@ -5855,7 +5923,8 @@
           "1.0.0-alpha05",
           "1.0.0-alpha06",
           "1.0.0-alpha07",
-          "1.0.0-alpha08"
+          "1.0.0-alpha08",
+          "1.0.0-alpha09"
         ],
         "wear-watchface-data": [
           "1.0.0-alpha01",
@@ -5865,18 +5934,22 @@
           "1.0.0-alpha05",
           "1.0.0-alpha06",
           "1.0.0-alpha07",
-          "1.0.0-alpha08"
+          "1.0.0-alpha08",
+          "1.0.0-alpha09"
         ],
         "wear-watchface-editor": [
           "1.0.0-alpha06",
           "1.0.0-alpha07",
-          "1.0.0-alpha08"
+          "1.0.0-alpha08",
+          "1.0.0-alpha09"
         ],
         "wear-watchface-editor-guava": [
-          "1.0.0-alpha08"
+          "1.0.0-alpha08",
+          "1.0.0-alpha09"
         ],
         "wear-watchface-guava": [
-          "1.0.0-alpha08"
+          "1.0.0-alpha08",
+          "1.0.0-alpha09"
         ],
         "wear-watchface-style": [
           "1.0.0-alpha01",
@@ -5886,12 +5959,13 @@
           "1.0.0-alpha05",
           "1.0.0-alpha06",
           "1.0.0-alpha07",
-          "1.0.0-alpha08"
+          "1.0.0-alpha08",
+          "1.0.0-alpha09"
         ]
       },
       "preferred": "1.1.0",
       "jetpackVersions": {
-        "latestUpdate": "2021-02-24",
+        "latestUpdate": "2021-03-10",
         "stable": "1.1.0",
         "alpha": "1.2.0-alpha06"
       }
@@ -5941,16 +6015,17 @@
         "window": [
           "1.0.0-alpha01",
           "1.0.0-alpha02",
-          "1.0.0-alpha03"
+          "1.0.0-alpha03",
+          "1.0.0-alpha04"
         ],
         "window-extensions": [
           "1.0.0-alpha01"
         ]
       },
-      "preferred": "1.0.0-alpha03",
+      "preferred": "1.0.0-alpha04",
       "jetpackVersions": {
-        "latestUpdate": "2021-02-18",
-        "alpha": "1.0.0-alpha03"
+        "latestUpdate": "2021-03-10",
+        "alpha": "1.0.0-alpha04"
       }
     },
     "work": {
@@ -5985,7 +6060,8 @@
           "2.5.0-beta02",
           "2.5.0-rc01",
           "2.5.0",
-          "2.7.0-alpha01"
+          "2.7.0-alpha01",
+          "2.7.0-alpha02"
         ],
         "work-multiprocess": [
           "2.5.0-alpha02",
@@ -5994,7 +6070,8 @@
           "2.5.0-beta02",
           "2.5.0-rc01",
           "2.5.0",
-          "2.7.0-alpha01"
+          "2.7.0-alpha01",
+          "2.7.0-alpha02"
         ],
         "work-runtime": [
           "2.0.0-rc01",
@@ -6036,7 +6113,8 @@
           "2.5.0-beta02",
           "2.5.0-rc01",
           "2.5.0",
-          "2.7.0-alpha01"
+          "2.7.0-alpha01",
+          "2.7.0-alpha02"
         ],
         "work-runtime-ktx": [
           "2.0.0-rc01",
@@ -6078,7 +6156,8 @@
           "2.5.0-beta02",
           "2.5.0-rc01",
           "2.5.0",
-          "2.7.0-alpha01"
+          "2.7.0-alpha01",
+          "2.7.0-alpha02"
         ],
         "work-rxjava2": [
           "2.0.0-rc01",
@@ -6120,7 +6199,8 @@
           "2.5.0-beta02",
           "2.5.0-rc01",
           "2.5.0",
-          "2.7.0-alpha01"
+          "2.7.0-alpha01",
+          "2.7.0-alpha02"
         ],
         "work-rxjava3": [
           "2.4.0-alpha03",
@@ -6134,7 +6214,8 @@
           "2.5.0-beta02",
           "2.5.0-rc01",
           "2.5.0",
-          "2.7.0-alpha01"
+          "2.7.0-alpha01",
+          "2.7.0-alpha02"
         ],
         "work-testing": [
           "2.0.0-rc01",
@@ -6176,14 +6257,15 @@
           "2.5.0-beta02",
           "2.5.0-rc01",
           "2.5.0",
-          "2.7.0-alpha01"
+          "2.7.0-alpha01",
+          "2.7.0-alpha02"
         ]
       },
       "preferred": "2.5.0",
       "jetpackVersions": {
-        "latestUpdate": "2021-02-18",
+        "latestUpdate": "2021-03-10",
         "stable": "2.5.0",
-        "alpha": "2.7.0-alpha01"
+        "alpha": "2.7.0-alpha02"
       }
     },
     "legacy-google-material": {
@@ -6204,7 +6286,8 @@
           "1.0.0-alpha10",
           "1.0.0-alpha11",
           "1.0.0-alpha12",
-          "1.0.0-beta01"
+          "1.0.0-beta01",
+          "1.0.0-beta02"
         ],
         "material": [
           "1.0.0-alpha1",

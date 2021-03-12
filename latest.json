@@ -1,5 +1,5 @@
 {
-  "lastUpdate": "2021-03-10",
+  "lastUpdate": "2021-03-11",
   "groups": {
     "activity": {
       "groupId": "androidx.activity",
@@ -1256,17 +1256,20 @@
           "2.0.3",
           "2.0.4",
           "2.1.0-alpha1",
-          "2.1.0-alpha2"
+          "2.1.0-alpha2",
+          "2.1.0-beta01"
         ],
         "constraintlayout-compose": [
           "1.0.0-alpha01",
           "1.0.0-alpha02",
-          "1.0.0-alpha03"
+          "1.0.0-alpha03",
+          "1.0.0-alpha04"
         ],
         "constraintlayout-core": [
           "1.0.0-alpha1",
           "1.0.0-alpha2",
-          "1.0.0-alpha3"
+          "1.0.0-alpha3",
+          "1.0.0-beta01"
         ],
         "constraintlayout-solver": [
           "1.1.0",
@@ -1296,9 +1299,9 @@
       },
       "preferred": "2.0.4",
       "jetpackVersions": {
-        "latestUpdate": "2020-12-17",
+        "latestUpdate": "2021-03-11",
         "stable": "2.0.4",
-        "alpha": "2.1.0-alpha2"
+        "beta": "2.1.0-beta01"
       }
     },
     "contentpager": {

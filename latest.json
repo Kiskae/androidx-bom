@@ -1758,7 +1758,8 @@
           "7.0.0-alpha08",
           "7.0.0-alpha09",
           "7.0.0-alpha10",
-          "7.0.0-alpha11"
+          "7.0.0-alpha11",
+          "7.0.0-alpha12"
         ],
         "databinding-common": [
           "3.2.0-alpha12",
@@ -1947,7 +1948,8 @@
           "7.0.0-alpha08",
           "7.0.0-alpha09",
           "7.0.0-alpha10",
-          "7.0.0-alpha11"
+          "7.0.0-alpha11",
+          "7.0.0-alpha12"
         ],
         "databinding-compiler": [
           "3.2.0-alpha12",
@@ -2136,7 +2138,8 @@
           "7.0.0-alpha08",
           "7.0.0-alpha09",
           "7.0.0-alpha10",
-          "7.0.0-alpha11"
+          "7.0.0-alpha11",
+          "7.0.0-alpha12"
         ],
         "databinding-compiler-common": [
           "3.2.0-alpha12",
@@ -2325,7 +2328,8 @@
           "7.0.0-alpha08",
           "7.0.0-alpha09",
           "7.0.0-alpha10",
-          "7.0.0-alpha11"
+          "7.0.0-alpha11",
+          "7.0.0-alpha12"
         ],
         "databinding-ktx": [
           "7.0.0-alpha04",
@@ -2335,7 +2339,8 @@
           "7.0.0-alpha08",
           "7.0.0-alpha09",
           "7.0.0-alpha10",
-          "7.0.0-alpha11"
+          "7.0.0-alpha11",
+          "7.0.0-alpha12"
         ],
         "databinding-runtime": [
           "3.2.0-alpha12",
@@ -2524,7 +2529,8 @@
           "7.0.0-alpha08",
           "7.0.0-alpha09",
           "7.0.0-alpha10",
-          "7.0.0-alpha11"
+          "7.0.0-alpha11",
+          "7.0.0-alpha12"
         ],
         "library": [
           "3.2.0-alpha11"
@@ -2627,7 +2633,8 @@
           "7.0.0-alpha08",
           "7.0.0-alpha09",
           "7.0.0-alpha10",
-          "7.0.0-alpha11"
+          "7.0.0-alpha11",
+          "7.0.0-alpha12"
         ]
       },
       "preferred": "3.5.0",

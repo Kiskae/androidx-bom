@@ -1,6 +1,15 @@
 # AndroidX Bill-of-Materials
 
- [ ![Download](https://api.bintray.com/packages/kiskae/maven/androidx-bom/images/download.svg) ](https://bintray.com/kiskae/maven/androidx-bom/_latestVersion)
+## Project Archived per 8th April 2021
+
+As per 31th of March Bintray stopped accepting package updates.
+After looking at the options I've decided to archive this project for the following reasons:
+
+1. The gradle plugin used to generate the BOM is heavily based on the one provided by bintray and would require rewriting for a different target.
+2. The project could very much use a rewrite in general.
+3. Updates to the Jetpack recommended versions mostly happens in lockstep with actual version updates to AndroidX projects. This means that updating dependencies using this project involves the same amount of effort as updating the androidx dependencies directly.
+
+## Legacy Readme
 
 Exports the current [AndroidX Releases](https://developer.android.com/jetpack/androidx/versions/)
 table as a maven bill-of-materials. 
